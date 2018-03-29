@@ -11,18 +11,21 @@
     // llamamos este metodo para ver los datos de ese id
     if(isset($_GET['id'])){
         $row = $controlador->ver($_GET['id']);
-    }else{
-        header('Location: editar.php');
     }
+    //else{
+     //   header('Location: editar.php');
+    //}
+    //}
 
 ?>
+<h3>Editar nuevo estudiante</h3>
+<hr>
 
-<form action="" method="post">
+<form action="" method="POST">
     <input type="number" name="cedula" value="<?php echo $row['cedula']; ?>" disabled>
     <input type="text" name="nombre" value="<?php echo $row['nombre'];?>" required >
     <input type="text" name="apellido" value="<?php echo $row['apellido'];?>" required>
-    <input type="text">
-    <input type="text">
+
 
 </form>
 
