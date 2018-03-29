@@ -1,4 +1,9 @@
+*{
 
+    border: 0px;
+    padding: 0px;
+    background-image: url("/imagenes/287069.jpg ");
+}
 
 body{
 
@@ -12,7 +17,7 @@ table{
     margin: 30px auto;
     border-collapse: collapse;
     text-align: left;
-    background-image: url("/imagenes/287069.jpg ");
+
 }
 
 tr{
