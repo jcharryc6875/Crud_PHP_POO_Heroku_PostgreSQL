@@ -17,19 +17,19 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            <state relative-caret-position="336">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
-                <marker date="1522366532754" expanded="true" signature="204:232" ph="SELECT * FRO... info" />
-                <marker date="1522366532754" expanded="true" signature="204:233" ph="SELECT * FRO... info" />
-                <marker date="1522366532754" expanded="true" signature="1778:1868" ph="..." />
+                <marker date="1522366619196" expanded="true" signature="194:222" ph="SELECT * FRO... info" />
+                <marker date="1522366619196" expanded="true" signature="194:223" ph="SELECT * FRO... info" />
+                <marker date="1522366619196" expanded="true" signature="1768:1858" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="server.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BaseDatos/server.php">
+        <entry file="file://$PROJECT_DIR$/server.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
               <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
@@ -138,11 +138,6 @@
             <path>
               <item name="Crud_PHP_POO_POSGRE" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crud_PHP_POO_POSGRE" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="BaseDatos" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Crud_PHP_POO_POSGRE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crud_PHP_POO_POSGRE" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -170,6 +165,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kernel-2018\PhpstormProjects\Crud_PHP_POO_POSGRE" />
       <recent name="C:\Users\Kernel-2018\PhpstormProjects\Crud_PHP_POO_POSGRE\BaseDatos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -220,12 +216,12 @@
       <workItem from="1522260962277" duration="9089000" />
       <workItem from="1522270425921" duration="8080000" />
       <workItem from="1522293894114" duration="13538000" />
-      <workItem from="1522351086425" duration="13762000" />
+      <workItem from="1522351086425" duration="13863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44469000" />
+    <option name="totallyTimeSpent" value="44570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -267,9 +263,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1522366532754" expanded="true" signature="204:232" ph="SELECT * FRO... info" />
-            <marker date="1522366532754" expanded="true" signature="204:233" ph="SELECT * FRO... info" />
-            <marker date="1522366532754" expanded="true" signature="1778:1868" ph="..." />
+            <marker date="1522366619196" expanded="true" signature="194:222" ph="SELECT * FRO... info" />
+            <marker date="1522366619196" expanded="true" signature="194:223" ph="SELECT * FRO... info" />
+            <marker date="1522366619196" expanded="true" signature="1768:1858" ph="..." />
           </folding>
         </state>
       </provider>
@@ -279,9 +275,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1522366532754" expanded="true" signature="204:232" ph="SELECT * FRO... info" />
-            <marker date="1522366532754" expanded="true" signature="204:233" ph="SELECT * FRO... info" />
-            <marker date="1522366532754" expanded="true" signature="1778:1868" ph="..." />
+            <marker date="1522366619196" expanded="true" signature="194:222" ph="SELECT * FRO... info" />
+            <marker date="1522366619196" expanded="true" signature="194:223" ph="SELECT * FRO... info" />
+            <marker date="1522366619196" expanded="true" signature="1768:1858" ph="..." />
           </folding>
         </state>
       </provider>
@@ -354,9 +350,9 @@
         <state relative-caret-position="96">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
-            <marker date="1522366532754" expanded="true" signature="204:232" ph="SELECT * FRO... info" />
-            <marker date="1522366532754" expanded="true" signature="204:233" ph="SELECT * FRO... info" />
-            <marker date="1522366532754" expanded="true" signature="1778:1868" ph="..." />
+            <marker date="1522366619196" expanded="true" signature="194:222" ph="SELECT * FRO... info" />
+            <marker date="1522366619196" expanded="true" signature="194:223" ph="SELECT * FRO... info" />
+            <marker date="1522366619196" expanded="true" signature="1768:1858" ph="..." />
           </folding>
         </state>
       </provider>
@@ -464,7 +460,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaseDatos/server.php">
+    <entry file="file://$PROJECT_DIR$/server.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
@@ -492,12 +488,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="336">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <marker date="1522366532754" expanded="true" signature="204:232" ph="SELECT * FRO... info" />
-            <marker date="1522366532754" expanded="true" signature="204:233" ph="SELECT * FRO... info" />
-            <marker date="1522366532754" expanded="true" signature="1778:1868" ph="..." />
+            <marker date="1522366619196" expanded="true" signature="194:222" ph="SELECT * FRO... info" />
+            <marker date="1522366619196" expanded="true" signature="194:223" ph="SELECT * FRO... info" />
+            <marker date="1522366619196" expanded="true" signature="1768:1858" ph="..." />
           </folding>
         </state>
       </provider>

@@ -1,5 +1,5 @@
 <?php
-    include_once('BaseDatos/server.php');
+    include_once('server.php');
 
     //fetch the record to be updated
     if(isset($_GET['edit'])){
@@ -74,7 +74,7 @@
         <td>
            <!-- BORRAR REGISTROS
             4-->
-            <a class="delete_btn" href="BaseDatos/server.php?del=<?php echo $row['id'];?>">Delete</a>
+            <a class="delete_btn" href="server.php?del=<?php echo $row['id'];?>">Delete</a>
         </td>
     </tr>
 
@@ -83,7 +83,7 @@
 
 </table>
 <!--server.php conexion con la base de datos-->
-<form action="BaseDatos/server.php" method="POST">
+<form action="server.php" method="POST">
     <!--//actualizar registros
     //3-->
     <input type="hidden" name="id"  value="<?php echo $id;?>">
