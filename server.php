@@ -61,7 +61,7 @@
     //<!-- BORRAR REGISTROS
     //4-->
     if(isset($_GET['del'])){
-        $id = $_GET['id'];
+        $id = $_GET['del'];
         pg_query($db, "DELETE FROM info WHERE id=$id");
         $_SESSION['msg'] = "Imformacion Eliminada";
 
