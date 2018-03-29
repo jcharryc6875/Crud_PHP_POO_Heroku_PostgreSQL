@@ -64,7 +64,9 @@
             <a class="edit_btn" href="index.php?edit=<?php echo $row['id'];?>"> Edit</a>
         </td>
         <td>
-            <a class="delete_btn" href="#">Delete</a>
+           <!-- BORRAR REGISTROS
+            4-->
+            <a class="delete_btn" href="server.php?del=<?php echo $row['id'];?>">Delete</a>
         </td>
     </tr>
 
@@ -75,7 +77,7 @@
 <!--server.php conexion con la base de datos-->
 <form action="server.php" method="POST">
     <!--//actualizar registros
-    //3-->-->
+    //3-->
     <input type="hidden" name="id"  value="<?php echo $id;?>">
     <div class="input-group">
 

@@ -58,6 +58,17 @@
         header('location: index.php'); //redireccionamos a la pagina principal
     }
 
+    //<!-- BORRAR REGISTROS
+    //4-->
+    if(isset($_GET['del'])){
+        $id = $_GET['id'];
+        pg_query($db, "DELETE FROM info WHERE id=$id");
+        $_SESSION['msg'] = "Imformacion Eliminada";
+
+        header('location: index.php'); //redireccionamos a la pagina principal
+
+    }
+
     //recuperar registros##################
     //2
     $results = pg_query($db, "SELECT * FROM info");
