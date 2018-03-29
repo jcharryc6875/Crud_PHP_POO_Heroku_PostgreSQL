@@ -43,6 +43,7 @@
         <li><a href="index.php">Inicio</a></li>
         <li><a href="?cargar=crear">Registrar</a></li>
         <li><a href="vistas/crear.php">Registrar2</a></li>
+        <li><a href="vistas/editar.php">Editar</a></li>
     </ul>
 </nav>
 
