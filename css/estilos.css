@@ -93,5 +93,21 @@ form{
     width: 50%;
     text-align: center;
 
+}
+
+.edit_btn{
+    text-decoration: #8c0615;
+    padding: 2px 5px;
+    background: #4f20b5;
+    color: white;
+    border-radius: 3px;
+
+}
+.delete_btn{
+    text-decoration: #8c0615;
+    padding: 2px 5px;
+    background: #9f3a38;
+    color: white;
+    border-radius: 3px;
 
 }

@@ -61,10 +61,10 @@
         <td>
             <!--//actualizar registros
         //3-->
-            <a href="index.php?edit=<?php echo $row['id'];?>"> Edit</a>
+            <a class="edit_btn" href="index.php?edit=<?php echo $row['id'];?>"> Edit</a>
         </td>
         <td>
-            <a href="#">Delete</a>
+            <a class="delete_btn" href="#">Delete</a>
         </td>
     </tr>
 
