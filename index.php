@@ -4,6 +4,7 @@
     //fetch the record to be updated
     if(isset($_GET['edit'])){
         $id = $_GET['edit'];
+        $edit_state = true;
 
         $rec = pg_query($db, "SELECT * FROM info WHERE id=$id");
         $record = pg_fetch_array($rec);
@@ -59,7 +60,7 @@
         <td><?php echo $row['address']; ?></td>
         <td>
             <!--//actualizar registros
-        //3-->-->
+        //3-->
             <a href="index.php?edit=<?php echo $row['id'];?>"> Edit</a>
         </td>
         <td>
