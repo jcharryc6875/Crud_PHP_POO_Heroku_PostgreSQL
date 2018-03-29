@@ -5,7 +5,9 @@
  * Date: 29/03/2018
  * Time: 16:01
  */
-
+    //Mostrar notificaciones de mensajes
+    //3
+    session_start();
 
     //INICIALIZAR VARIABLES
     $name = "";
@@ -30,6 +32,10 @@
 
         $query = "INSERT INTO info(name,address) VALUES('$name', '$address')";
         pg_query($db, $query);
+        //Mostrar notificaciones de mensajes
+        //3
+        $_SESSION['msg'] = "Dirrecion Guardada";
+
         header('location: index.php'); //redireccionamos a la pagina principal
 
     }
