@@ -14,25 +14,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="168">
+              <caret line="31" column="47" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="32" column="78" lean-forward="false" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
+            <state relative-caret-position="423">
+              <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
               <folding>
-                <marker date="1522358004036" expanded="true" signature="707:740" ph="INSERT INTO info... " />
-                <marker date="1522358004036" expanded="true" signature="707:747" ph="INSERT INTO info... " />
-                <marker date="1522358004036" expanded="true" signature="707:768" ph="INSERT INTO info... " />
+                <marker date="1522361438604" expanded="true" signature="707:737" ph="INSERT INTO info... " />
+                <marker date="1522361438604" expanded="true" signature="707:744" ph="INSERT INTO info... " />
+                <marker date="1522361438604" expanded="true" signature="707:765" ph="INSERT INTO info... " />
+                <marker date="1522361438604" expanded="true" signature="968:986" ph="SELECT * FRO... info" />
               </folding>
             </state>
           </provider>
@@ -75,8 +76,8 @@
         <option value="$PROJECT_DIR$/modulos/Enrutador.php" />
         <option value="$PROJECT_DIR$/vistas/editar.php" />
         <option value="$PROJECT_DIR$/css/estilos.css" />
-        <option value="$PROJECT_DIR$/server.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/server.php" />
       </list>
     </option>
   </component>
@@ -192,12 +193,12 @@
       <workItem from="1522260962277" duration="9089000" />
       <workItem from="1522270425921" duration="8080000" />
       <workItem from="1522293894114" duration="13538000" />
-      <workItem from="1522351086425" duration="7116000" />
+      <workItem from="1522351086425" duration="8715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37823000" />
+    <option name="totallyTimeSpent" value="39422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -432,23 +433,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="32" column="78" lean-forward="false" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
-          <folding>
-            <marker date="1522358004036" expanded="true" signature="707:740" ph="INSERT INTO info... " />
-            <marker date="1522358004036" expanded="true" signature="707:747" ph="INSERT INTO info... " />
-            <marker date="1522358004036" expanded="true" signature="707:768" ph="INSERT INTO info... " />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="31" column="47" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="423">
+          <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+          <folding>
+            <marker date="1522361438604" expanded="true" signature="707:737" ph="INSERT INTO info... " />
+            <marker date="1522361438604" expanded="true" signature="707:744" ph="INSERT INTO info... " />
+            <marker date="1522361438604" expanded="true" signature="707:765" ph="INSERT INTO info... " />
+            <marker date="1522361438604" expanded="true" signature="968:986" ph="SELECT * FRO... info" />
+          </folding>
         </state>
       </provider>
     </entry>

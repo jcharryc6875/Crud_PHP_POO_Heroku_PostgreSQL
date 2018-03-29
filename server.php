@@ -28,11 +28,15 @@
 
         // hacemos la query de insertar datos
 
-        $query = "INSERT INTO info (name, address ) VALUES('$name', '$address')";
+        $query = "INSERT INTO info(name,address) VALUES('$name', '$address')";
         pg_query($db, $query);
         header('location: index.php'); //redireccionamos a la pagina principal
 
     }
+
+    //recuperar registros##################
+    //2
+    $results = pg_query($db, "SELECT * FROM info");
 
 
 ?>

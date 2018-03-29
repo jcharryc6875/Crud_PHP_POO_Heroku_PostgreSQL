@@ -25,11 +25,14 @@
         </tr>
 
     </thead>
-
+    <!-- llamando registros de la base de datos 2-->
+    <!-- 2 -->
     <tbody>
+
+    <?php while ($row = pg_fetch_array($results))   { ?>
     <tr>
-        <td>Camilo</td>
-        <td>Colombia</td>
+        <td><?php echo $row['name']; ?></td>
+        <td><?php echo $row['address']; ?></td>
         <td>
             <a href="#"> Edit</a>
         </td>
@@ -37,6 +40,8 @@
             <a href="#">Delete</a>
         </td>
     </tr>
+
+    <?php }?>
     </tbody>
 
 </table>
