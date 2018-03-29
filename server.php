@@ -14,6 +14,10 @@
     $address = "";
     $id = 0;
 
+    //actualizar registros
+    //3
+    $edit_state = false;
+
 
     //conectar con la base de datos
 
@@ -38,6 +42,15 @@
 
         header('location: index.php'); //redireccionamos a la pagina principal
 
+    }
+
+    //actualizar registros
+    //3-->
+
+    if (isset($_POST['update'])){
+        $name = pg_escape_string($_POST['name']);
+        $address = pg_escape_string($_POST['address']);
+        $id = pg_escape_string($_POST['id']);
     }
 
     //recuperar registros##################
