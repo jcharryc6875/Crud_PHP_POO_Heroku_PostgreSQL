@@ -35,6 +35,27 @@
 
 </table>
 
+<form action="" method="POST">
+    <div class="input-group">
+
+        <label for="">Name</label>
+        <input type="text" name="name" >
+    </div>
+    <div class="input-group">
+
+        <label for="">Address</label>
+        <input type="text" name="address" >
+    </div>
+
+    <div class="input-group">
+        <button type="submit" name="save" class="btn">Guardar</button>
+
+    </div>
+
+
+
+</form>
+
 
 </body>
 
