@@ -12,7 +12,7 @@
     if(isset($_GET['id'])){
         $row = $controlador->ver($_GET['id']);
     }else{
-        header('Location: vistas/editar.php');
+        header('Location: editar.php');
     }
 
 ?>
