@@ -1,5 +1,5 @@
 <?php
-    include_once('server.php');
+    include_once('./BaseDatos/server.php');
 
     //fetch the record to be updated
     if(isset($_GET['edit'])){
@@ -24,8 +24,16 @@
 <head>
     <title> MI primer CRUD</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+    <!--    //SEMANTIC UI CON  JQUERY-->
+
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="js/semantic.js"></script>
+   
 </head>
 <body>
 
@@ -66,7 +74,7 @@
         <td>
            <!-- BORRAR REGISTROS
             4-->
-            <a class="delete_btn" href="server.php?del=<?php echo $row['id'];?>">Delete</a>
+            <a class="delete_btn" href="BaseDatos/server.php?del=<?php echo $row['id'];?>">Delete</a>
         </td>
     </tr>
 
@@ -75,7 +83,7 @@
 
 </table>
 <!--server.php conexion con la base de datos-->
-<form action="server.php" method="POST">
+<form action="BaseDatos/server.php" method="POST">
     <!--//actualizar registros
     //3-->
     <input type="hidden" name="id"  value="<?php echo $id;?>">
