@@ -52,7 +52,7 @@
         $address = pg_escape_string($_POST['address']);
         $id = pg_escape_string($_POST['id']);
 
-        pg_query($db, "UPDATE info SET name='$name', address='address' WHERE id=$id");
+        pg_query($db, "UPDATE info SET name='$name', address='$address' WHERE id=$id");
         $_SESSION['msg'] = "Imformacion Actualizada";
 
         header('location: index.php'); //redireccionamos a la pagina principal
