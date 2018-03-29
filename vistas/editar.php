@@ -12,7 +12,7 @@
     if(isset($_GET['id'])){
         $row = $controlador->ver($_GET['id']);
     }else{
-        header('Location: index.php');
+        header('Location: vistas/editar.php');
     }
 
 ?>
@@ -23,8 +23,6 @@
     <input type="text" name="apellido" value="<?php echo $row['apellido'];?>" required>
     <input type="text">
     <input type="text">
-
-
 
 </form>
 
