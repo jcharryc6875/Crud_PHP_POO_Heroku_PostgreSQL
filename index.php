@@ -1,3 +1,9 @@
+<?php
+    include_once('server.php');
+
+?>
+
+
 <!DOCTYPE HTML>
 
 <html lang="es">
@@ -34,8 +40,8 @@
     </tbody>
 
 </table>
-
-<form action="" method="POST">
+<!--server.php conexion con la base de datos-->
+<form action="server.php" method="POST">
     <div class="input-group">
 
         <label for="">Name</label>
