@@ -48,18 +48,18 @@
 </head>
 <body>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-<div class="ui menu">
+<div class="ui teal  menu">
     <div class="header item">
-        Our Company
+       CRUD PHP HEROKU POSTGRESQL
     </div>
     <a class="item active">
-        About Us
+        EMPLOYEES
     </a>
     <a class="item">
-        Jobs
+        DEPARTMENTS
     </a>
     <a class="item">
-        Locations
+        JOBS
     </a>
 </div>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
