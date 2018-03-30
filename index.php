@@ -62,7 +62,7 @@
 
 
 
-<table class="ui inverted grey table ">
+<table class="ui inverted olive table">
     <thead>
         <tr>
             <!--fronted 8) desplegar datos en html-->
