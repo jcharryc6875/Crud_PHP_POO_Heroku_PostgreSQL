@@ -96,7 +96,7 @@
 
         pg_query($db, "UPDATE employees SET primer_nombre='$primer_nombre', segundo_nombre='$segundo_nombre',
   correo='$correo' , numero_telefono='$numero_telefono', fecha_ingreso='$fecha_ingreso', trabajo_id='$trabajo_id', salario='$salario'
-   , jefe_id='$jefe_id', departamento_id='$departamento_id', sexo='$sexo', genero='$genero', estado_civil='$estado_civil' WHERE id=$empleado_id");
+   , jefe_id='$jefe_id', departamento_id='$departamento_id', sexo='$sexo', genero='$genero', estado_civil='$estado_civil' WHERE empleado_id=$empleado_id");
         $_SESSION['msg'] = "Imformacion Actualizada";
 
         header('location: index.php'); //redireccionamos a la pagina principal
