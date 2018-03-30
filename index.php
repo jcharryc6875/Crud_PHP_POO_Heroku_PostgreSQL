@@ -3,7 +3,7 @@
 
     //fetch the record to be updated
     if(isset($_GET['edit'])){
-        $id = $_GET['edit'];
+        $empleado_id = $_GET['edit'];
         $edit_state = true;
     //frontend 7) llamara datos
         $rec = pg_query($db, "SELECT * FROM employees WHERE empleado_id=$empleado_id");
