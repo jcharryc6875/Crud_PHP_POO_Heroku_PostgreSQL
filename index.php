@@ -118,7 +118,7 @@
 <!--server.php conexion con la base de datos-->
 <form action="server.php" method="POST">
     <!--//12) actualizar registros en el formulario-->
-    <input type="hidden" name="empleado_id"  value="<?php echo $empleado_id;?>">
+  <!--  <input type="hidden" name="empleado_id"  value="<?php /*echo $empleado_id;*/?>">-->
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="input-group">
@@ -126,7 +126,7 @@
         <label for="">Empleado Id</label>
         <input type="text" name="empleado_id" value="<?php echo $empleado_id;?>">
     </div>
-    <div class="input-group">
+
     <div class="input-group">
 
         <label for="">Primer Nombre</label>
