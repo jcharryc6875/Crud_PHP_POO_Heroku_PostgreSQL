@@ -123,12 +123,13 @@
    <input type="hidden" name="empleado_id"  value="<?php echo $empleado_id;?>">
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-
-    <div class="input-group">
-
-        <label for="">Primer Nombre</label>
-        <input type="text" name="primer_nombre" value="<?php echo $primer_nombre;?>">
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="primer_nombre" value="<?php echo $primer_nombre;?>">
+        <div class="ui basic label">
+            Primer Nombre
+        </div>
     </div>
+    
     <div class="input-group">
 
         <label for="">Segundo Nombre</label>
