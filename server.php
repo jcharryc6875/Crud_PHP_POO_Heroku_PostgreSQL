@@ -14,16 +14,16 @@
     //$address = "";
     //$id = 0;
     //1)variables para conectar con employees
-    $empleado_id =0;//1
+    $empleado_id = "";//1
     $primer_nombre = "";//2
     $segundo_nombre = "";//3
     $correo = "";//4
-    $numero_telefono = 0;//5
-    $fecha_ingreso = 0;//6
+    $numero_telefono = "";//5
+    $fecha_ingreso = "";//6
     $trabajo_id = "";//7
-    $salario = 0;//8
-    $jefe_id = 0;//9
-    $departamento_id = 0;//10
+    $salario = "";//8
+    $jefe_id = "";//9
+    $departamento_id = "";//10
     $sexo = "";//11
     $genero = ""; //12
     $estado_civil = "";//13
@@ -94,7 +94,7 @@
         $estado_civil = pg_escape_string($_POST['estado_civil']);
         $empleado_id = pg_escape_string($_POST['empleado_id']);
 
-        pg_query($db, "UPDATE employees SET empleado_id='$empleado_id', primer_nombre='$primer_nombre', segundo_nombre='$segundo_nombre',correo='$correo' , numero_telefono='$numero_telefono', fecha_ingreso='$fecha_ingreso', trabajo_id='$trabajo_id', salario='$salario',jefe_id='$jefe_id', departamento_id='$departamento_id', sexo='$sexo', genero='$genero', estado_civil='$estado_civil' WHERE empleado_id=$empleado_id");
+        pg_query($db, "UPDATE employees SET empleado_id='$empleado_id', primer_nombre='$primer_nombre', segundo_nombre='$segundo_nombre', correo='$correo' , numero_telefono='$numero_telefono', fecha_ingreso='$fecha_ingreso', trabajo_id='$trabajo_id', salario='$salario',jefe_id='$jefe_id', departamento_id='$departamento_id', sexo='$sexo', genero='$genero', estado_civil='$estado_civil' WHERE empleado_id=$empleado_id");
         $_SESSION['msg'] = "Imformacion Actualizada";
 
         header('location: index.php'); //redireccionamos a la pagina principal
