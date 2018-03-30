@@ -181,11 +181,22 @@
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="jefe_id" value="<?php echo $jefe_id;?>">
+      <!--  <input type="text" placeholder="Enter ..." name="jefe_id" value="<?php /*echo $jefe_id;*/?>">-->
+        <select name="jefe_id" value="<?php echo $jefe_id;?>">
+
+            <option>100</option>
+
+            <option>102</option>
+
+            <option>103</option>
+
+        </select>
+
         <div class="ui basic label">
             Jefe id
         </div>
     </div>
+
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
         <input type="text" placeholder="Enter ..." name="departamento_id" value="<?php echo $departamento_id;?>">
