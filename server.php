@@ -14,7 +14,7 @@
     //$address = "";
     //$id = 0;
     //1)variables para conectar con employees
-    $empleado_id = 0;//1
+    $empleado_id = "";//1
     $primer_nombre = "";//2
     $segundo_nombre = "";//3
     $correo = "";//4
