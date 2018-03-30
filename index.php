@@ -251,10 +251,12 @@
         //3-->
         <?php   if ($edit_state == false): ?>
 
-        <button type="submit" name="save" class="ui primary loading button">Guardar</button>
+        <button type="submit" name="save" class="btn">Guardar</button>
+            <button type="button"  class="ui loading button"></button>
         <?php else: ?>
 
-        <button type="submit" name="update" class="ui basic loading button">Actualizar</button>
+        <button type="submit" name="update" class="btn">Actualizar</button>
+            <button type="button"  class="ui basic loading button"></button>
         <?php endif; ?>
 
     </div>
