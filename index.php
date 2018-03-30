@@ -123,7 +123,7 @@
    <input type="hidden" name="empleado_id"  value="<?php echo $empleado_id;?>">
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
- <!--   <div class="ui right labeled input">
+<!-- <!--   <div class="ui right labeled input">
         <input type="text" placeholder="Enter ..." name="empleado_id" value="<?php /*echo $empleado_id;*/?>">
         <div class="ui basic label">
             empleado_id
@@ -137,18 +137,18 @@
     </div>
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-   <!-- <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="primer_nombre" value="<?php /*echo $primer_nombre;*/?>">
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="primer_nombre" value="<?php echo $primer_nombre;?>">
         <div class="ui basic label">
             Primer Nombre
         </div>
-    </div>-->
+    </div>
 
-    <div class="input-group">
+    <!--<div class="input-group">
 
         <label for="">primer_nombre</label>
-        <input type="text" name="primer_nombre" value="<?php echo $primer_nombre;?>">
-    </div>
+        <input type="text" name="primer_nombre" value="<?php /*echo $primer_nombre;*/?>">
+    </div>-->
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
    <!-- <div class="ui right labeled input">
         <input type="text" placeholder="Enter ..." name="segundo_nombre" value="<?php /*echo $segundo_nombre;*/?>">
