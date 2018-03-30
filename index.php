@@ -8,7 +8,7 @@
     //frontend 7) llamara datos
         $rec = pg_query($db, "SELECT * FROM employees WHERE empleado_id=$empleado_id");
         $record = pg_fetch_array($rec);
-
+        $empleado_id = $record['empleado_id'];
         $primer_nombre = $record['primer_nombre'];
         $segundo_nombre = $record['segundo_nombre'];
         $correo = $record['correo'];
@@ -21,7 +21,7 @@
         $sexo = $record['sexo'];
         $genero = $record['genero'];
         $estado_civil = $record['estado_civil'];
-        $empleado_id = $record['empleado_id'];
+
 
     }
 
@@ -66,7 +66,7 @@
     <thead>
         <tr>
             <!--fronted 8) desplegar datos en html-->
-
+            <th>empleado_id</th>
             <th>primer_nombre</th>
             <th>segundo_nombre</th>
             <th>correo</th>
@@ -80,7 +80,7 @@
             <th>genero</th>
             <th>estado_civil</th>
             
-            <th colspan="2" >Action</th>
+            <th colspan="1" >Action</th>
         </tr>
 
     </thead>
@@ -90,7 +90,7 @@
     <!-- 9)llamando registros de la base de datos-->
     <?php while ($row = pg_fetch_array($results))   { ?>
     <tr>
-
+        <td><?php echo $row['empleado_id']; ?></td>
         <td><?php echo $row['primer_nombre']; ?></td>
         <td><?php echo $row['segundo_nombre']; ?></td>
         <td><?php echo $row['correo']; ?></td>
@@ -121,6 +121,14 @@
 <form action="server.php" method="POST">
     <!--//12) actualizar registros en el formulario-->
    <input type="hidden" name="empleado_id"  value="<?php echo $empleado_id;?>">
+
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="empleado_id" value="<?php echo $empleado_id;?>">
+        <div class="ui basic label">
+            empleado_id
+        </div>
+    </div>
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
