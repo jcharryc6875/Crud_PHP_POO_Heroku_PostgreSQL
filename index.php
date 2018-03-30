@@ -214,7 +214,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
    <div class="ui right labeled input">
-        <input type="checkbox" placeholder="Enter ..." name="sexo" value="<?php echo $sexo;?>">
+        <input type="text" placeholder="Enter ..." name="sexo" value="<?php echo $sexo;?>">
         <div class="ui basic label">
             Sexo
         </div>
@@ -223,7 +223,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="checkbox" placeholder="Enter ..." name="genero" value="<?php echo $genero;?>">
+        <input type="text" placeholder="Enter ..." name="genero" value="<?php echo $genero;?>">
         <div class="ui basic label">
             Genero
         </div>
@@ -241,7 +241,7 @@
     <div class="ui right labeled" >
         <select name="estado_civil">
 
-    <option><input type="checkbox" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">SOLTERO</option>
+    <option><input type="range" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">SOLTERO</option>
             <option><input type="checkbox" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">CASADO</option>
 
             <div class="ui basic label">
