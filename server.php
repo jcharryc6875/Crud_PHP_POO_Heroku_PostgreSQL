@@ -14,7 +14,7 @@
     //$address = "";
     //$id = 0;
     //1)variables para conectar con employees
-    $empleado_id = "";//1
+    $empleado_id = 0;//1
     $primer_nombre = "";//2
     $segundo_nombre = "";//3
     $correo = "";//4
@@ -47,7 +47,7 @@
 
         //$name = $_POST['name'];
         //$address = $_POST['address'];
-        $empleado_id = $_POST['empleado_id'];
+        //$empleado_id = $_POST['empleado_id'];
         $primer_nombre = $_POST['primer_nombre'];
         $segundo_nombre = $_POST['segundo_nombre'];
         $correo  = $_POST['correo'];
@@ -64,7 +64,7 @@
 
         //3) hacemos la query de insertar datos
 
-        $query = "INSERT INTO employees(empleado_id,primer_nombre,segundo_nombre,correo,numero_telefono,fecha_ingreso,trabajo_id,salario,jefe_id,departamento_id,sexo,genero,estado_civil) VALUES('$empleado_id', '$primer_nombre',
+        $query = "INSERT INTO employees(primer_nombre,segundo_nombre,correo,numero_telefono,fecha_ingreso,trabajo_id,salario,jefe_id,departamento_id,sexo,genero,estado_civil) VALUES( '$primer_nombre',
         '$segundo_nombre','$correo','$numero_telefono','$fecha_ingreso','$trabajo_id','$salario','$jefe_id','$departamento_id','$sexo','$genero','$estado_civil')";
         pg_query($db, $query);
         //Mostrar notificaciones de mensajes
@@ -79,7 +79,7 @@
     //4)-->
 
     if (isset($_POST['update'])){
-        $empleado_id = pg_escape_string($_POST['empleado_id']);
+
         $primer_nombre  = pg_escape_string($_POST['primer_nombre']);
         $segundo_nombre = pg_escape_string($_POST['segundo_nombre']);
         $correo = pg_escape_string($_POST['correo']);
@@ -92,9 +92,10 @@
         $sexo = pg_escape_string($_POST['sexo']);
         $genero = pg_escape_string($_POST['genero']);
         $estado_civil = pg_escape_string($_POST['estado_civil']);
+        $empleado_id = pg_escape_string($_POST['empleado_id']);
 
 
-        pg_query($db, "UPDATE employees SET empleado_id='$empleado_id', primer_nombre='$primer_nombre', segundo_nombre='$segundo_nombre', correo='$correo' , numero_telefono='$numero_telefono', fecha_ingreso='$fecha_ingreso', trabajo_id='$trabajo_id', salario='$salario',jefe_id='$jefe_id', departamento_id='$departamento_id', sexo='$sexo', genero='$genero', estado_civil='$estado_civil' WHERE empleado_id=$empleado_id");
+        pg_query($db, "UPDATE employees SET primer_nombre='$primer_nombre', segundo_nombre='$segundo_nombre', correo='$correo' , numero_telefono='$numero_telefono', fecha_ingreso='$fecha_ingreso', trabajo_id='$trabajo_id', salario='$salario',jefe_id='$jefe_id', departamento_id='$departamento_id', sexo='$sexo', genero='$genero', estado_civil='$estado_civil' WHERE empleado_id=$empleado_id");
         $_SESSION['msg'] = "Imformacion Actualizada";
 
         header('location: index.php'); //redireccionamos a la pagina principal

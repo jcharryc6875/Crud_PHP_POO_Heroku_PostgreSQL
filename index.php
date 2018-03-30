@@ -8,7 +8,7 @@
     //frontend 7) llamara datos
         $rec = pg_query($db, "SELECT * FROM employees WHERE empleado_id=$empleado_id");
         $record = pg_fetch_array($rec);
-        $empleado_id = $record['empleado_id'];
+
         $primer_nombre = $record['primer_nombre'];
         $segundo_nombre = $record['segundo_nombre'];
         $correo = $record['correo'];
@@ -64,7 +64,7 @@
     <thead>
         <tr>
             <!--fronted 8) desplegar datos en html-->
-            <th>empleado_id</th>
+
             <th>primer_nombre</th>
             <th>segundo_nombre</th>
             <th>correo</th>
@@ -88,7 +88,7 @@
     <!-- 9)llamando registros de la base de datos-->
     <?php while ($row = pg_fetch_array($results))   { ?>
     <tr>
-        <td><?php echo $row['empleado_id']; ?></td>
+
         <td><?php echo $row['primer_nombre']; ?></td>
         <td><?php echo $row['segundo_nombre']; ?></td>
         <td><?php echo $row['correo']; ?></td>
@@ -121,11 +121,6 @@
    <input type="hidden" name="empleado_id"  value="<?php echo $empleado_id;?>">
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="input-group">
-
-        <label for="">Empleado Id</label>
-        <input type="text" name="empleado_id" value="<?php echo $empleado_id;?>">
-    </div>
 
     <div class="input-group">
 
