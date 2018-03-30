@@ -240,8 +240,8 @@
     </div>-->
     <div class="ui right labeled" >
        <select name="estado_civil" required>
-            <option value="<?php echo $estado_civil;?>">SOLTERO</option>
-            <option value="<?php echo $estado_civil;?>">CASADO</option>
+            <option name="estado_civil" value="<?php echo $estado_civil;?>">SOLTERO</option>
+            <option name="estado_civil" value="<?php echo $estado_civil;?>">CASADO</option>
       </select>
 
         <div class="ui basic label">
