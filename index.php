@@ -233,16 +233,23 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
-    <div class="ui right labeled" >
+ <!--   <div class="ui right labeled" >
        <select name="estado_civil" required>
-            <option name="SOLTERO" value="<?php echo $estado_civil;?>">SOLTERO</option>
-            <option name="CASADO" value="<?php echo $estado_civil;?>">CASADO</option>
+            <option name="SOLTERO" value="<?php /*echo $estado_civil;*/?>">SOLTERO</option>
+            <option name="CASADO" value="<?php /*echo $estado_civil;*/?>">CASADO</option>
       </select>
 
         <div class="ui basic label">
             Estado Civil
         </div>
 
+    </div>-->
+
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">
+        <div class="ui basic label">
+            Estado Civil
+        </div>
     </div>
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
@@ -256,7 +263,7 @@
         <?php else: ?>
 
         <button type="submit" name="update" class="btn">Actualizar</button>
-            <button type="button"  class="ui basic loading button"></button>
+            <button type="button"  class="ui primary loading button"></button>
         <?php endif; ?>
 
     </div>
