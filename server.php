@@ -47,26 +47,25 @@
 
         //$name = $_POST['name'];
         //$address = $_POST['address'];
-        $empleado_id  = $_POST['empleado_id '];
-        $primer_nombre   = $_POST['primer_nombre'];
-        $segundo_nombre   = $_POST['segundo_nombre'];
-        $correo   = $_POST['correo'];
-        $numero_telefono   = $_POST['numero_telefono'];
-        $fecha_ingreso   = $_POST['fecha_ingreso'];
-        $trabajo_id   = $_POST['trabajo_id'];
-        $salario   = $_POST['salario'];
-        $jefe_id   = $_POST['jefe_id'];
-        $departamento_id   = $_POST['departamento_id'];
+        $empleado_id = $_POST['empleado_id '];
+        $primer_nombre = $_POST['primer_nombre'];
+        $segundo_nombre = $_POST['segundo_nombre'];
+        $correo  = $_POST['correo'];
+        $numero_telefono = $_POST['numero_telefono'];
+        $fecha_ingreso  = $_POST['fecha_ingreso'];
+        $trabajo_id = $_POST['trabajo_id'];
+        $salario = $_POST['salario'];
+        $jefe_id = $_POST['jefe_id'];
+        $departamento_id  = $_POST['departamento_id'];
         $sexo = $_POST['sexo'];
-        $genero   = $_POST['genero'];
-        $estado_civil   = $_POST['estado_civil'];
+        $genero  = $_POST['genero'];
+        $estado_civil  = $_POST['estado_civil'];
 
 
         //3) hacemos la query de insertar datos
 
         $query = "INSERT INTO employees(empleado_id,primer_nombre,segundo_nombre,correo,numero_telefono,fecha_ingreso,trabajo_id,salario,jefe_id,departamento_id,sexo,genero,estado_civil) VALUES('$empleado_id', '$primer_nombre',
-        '$segundo_nombre','$correo','$numero_telefono','$fecha_ingreso','$trabajo_id','$salario',
-        '$jefe_id','$departamento_id','$sexo','$genero','$estado_civil')";
+        '$segundo_nombre','$correo','$numero_telefono','$fecha_ingreso','$trabajo_id','$salario','$jefe_id','$departamento_id','$sexo','$genero','$estado_civil')";
         pg_query($db, $query);
         //Mostrar notificaciones de mensajes
         //3
@@ -94,9 +93,7 @@
         $estado_civil = pg_escape_string($_POST['estado_civil']);
         $empleado_id = pg_escape_string($_POST['empleado_id']);
 
-        pg_query($db, "UPDATE employees SET primer_nombre='$primer_nombre', segundo_nombre='$segundo_nombre',
-  correo='$correo' , numero_telefono='$numero_telefono', fecha_ingreso='$fecha_ingreso', trabajo_id='$trabajo_id', salario='$salario'
-   , jefe_id='$jefe_id', departamento_id='$departamento_id', sexo='$sexo', genero='$genero', estado_civil='$estado_civil' WHERE empleado_id=$empleado_id");
+        pg_query($db, "UPDATE employees SET primer_nombre='$primer_nombre', segundo_nombre='$segundo_nombre',correo='$correo' , numero_telefono='$numero_telefono', fecha_ingreso='$fecha_ingreso', trabajo_id='$trabajo_id', salario='$salario',jefe_id='$jefe_id', departamento_id='$departamento_id', sexo='$sexo', genero='$genero', estado_civil='$estado_civil' WHERE empleado_id='$empleado_id'");
         $_SESSION['msg'] = "Imformacion Actualizada";
 
         header('location: index.php'); //redireccionamos a la pagina principal
