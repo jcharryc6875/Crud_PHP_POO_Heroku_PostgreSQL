@@ -124,7 +124,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
   <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." autofocus maxlength="3" name="empleado_id" value="<?php echo $empleado_id;?>">
+        <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="empleado_id" value="<?php echo $empleado_id;?>">
         <div class="ui basic label">
             empleado_id
         </div>
@@ -160,7 +160,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="tel" placeholder="Enter ..." autofocus maxlength="15" name="numero_telefono" value="<?php echo $numero_telefono;?>">
+        <input type="number" placeholder="Enter ..." autofocus maxlength="15" name="numero_telefono" value="<?php echo $numero_telefono;?>">
         <div class="ui basic label">
             Numero_Telefono
         </div>
@@ -232,31 +232,14 @@
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
- <!--    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." autofocus maxlength="10" name="estado_civil" value="<?php /*echo $estado_civil;*/?>">
-        <div class="ui basic label">
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." autofocus maxlength="10" name="estado_civil" value="<?php echo $estado_civil;?>">
+        <div class="ui basic label tag">
             Estado Civil
         </div>
-    </div>-->
-
-    <div class="ui form">
-        <div class="grouped fields">
-            <label>Cual es tu estado civil?</label>
-            <div class="field">
-                <div class="ui radio checkbox">
-                    <input type="radio" autofocus maxlength="10" name="estado_civil" value="<?php echo $estado_civil;?>" checked="checked">
-                    <label>CASADO</label>
-                </div>
-            </div>
-            <div class="field">
-                <div class="ui radio checkbox">
-                    <input type="radio" autofocus maxlength="10" name="estado_civil" value="<?php echo $estado_civil;?>" checked="checked">
-                    <label>SOLTERO</label>
-                </div>
-            </div>
-
-        </div>
     </div>
+
+
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="input-group">
