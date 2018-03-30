@@ -123,109 +123,171 @@
    <input type="hidden" name="empleado_id"  value="<?php echo $empleado_id;?>">
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="empleado_id" value="<?php echo $empleado_id;?>">
+ <!--   <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="empleado_id" value="<?php /*echo $empleado_id;*/?>">
         <div class="ui basic label">
             empleado_id
         </div>
+    </div>-->
+
+    <div class="input-group">
+
+        <label for="">empleado_id</label>
+        <input type="text" name="empleado_id" value="<?php echo $empleado_id;?>">
     </div>
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="primer_nombre" value="<?php echo $primer_nombre;?>">
+   <!-- <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="primer_nombre" value="<?php /*echo $primer_nombre;*/?>">
         <div class="ui basic label">
             Primer Nombre
         </div>
+    </div>-->
+
+    <div class="input-group">
+
+        <label for="">primer_nombre</label>
+        <input type="text" name="primer_nombre" value="<?php echo $primer_nombre;?>">
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="segundo_nombre" value="<?php echo $segundo_nombre;?>">
+   <!-- <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="segundo_nombre" value="<?php /*echo $segundo_nombre;*/?>">
         <div class="ui basic label">
             Segundo Nombre
         </div>
+    </div>-->
+    <div class="input-group">
+
+        <label for="">segundo_nombre</label>
+        <input type="text" name="segundo_nombre" value="<?php echo $segundo_nombre;?>">
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" name="correo" value="<?php echo $correo;?>">
+  <!--  <div class="ui right labeled input">
+        <input type="text" name="correo" value="<?php /*echo $correo;*/?>">
         <div class="ui basic label">
             Correo
         </div>
+    </div>-->
+
+    <div class="input-group">
+
+        <label for="">correo</label>
+        <input type="text" name="correo" value="<?php echo $correo;?>">
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="numero_telefono" value="<?php echo $numero_telefono;?>">
+ <!--   <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="numero_telefono" value="<?php /*echo $numero_telefono;*/?>">
         <div class="ui basic label">
             Numero_Telefono
         </div>
+    </div>-->
+
+    <div class="input-group">
+
+        <label for="">numero_telefono</label>
+        <input type="text" name="numero_telefono" value="<?php echo $numero_telefono;?>">
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="fecha_ingreso" value="<?php echo $fecha_ingreso;?>">
+   <!-- <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="fecha_ingreso" value="<?php /*echo $fecha_ingreso;*/?>">
         <div class="ui basic label">
             Fecha Ingreso
         </div>
+    </div>-->
+
+    <div class="input-group">
+
+        <label for="">fecha_ingreso</label>
+        <input type="text" name="fecha_ingreso" value="<?php echo $fecha_ingreso;?>">
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="trabajo_id" value="<?php echo $trabajo_id;?>">
+    <!--<div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="trabajo_id" value="<?php /*echo $trabajo_id;*/?>">
         <div class="ui basic label">
             Trabajo Id
         </div>
+    </div>-->
+
+    <div class="input-group">
+
+        <label for="">trabajo_id</label>
+        <input type="text" name="trabajo_id" value="<?php echo $trabajo_id;?>">
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="salario" value="<?php echo $salario;?>">
+   <!-- <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="salario" value="<?php /*echo $salario;*/?>">
         <div class="ui basic label">
             Salario
         </div>
+    </div>-->
+
+    <div class="input-group">
+
+        <label for="">salario</label>
+        <input type="text" name="salario" value="<?php echo $salario;?>">
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-      <!--  <input type="text" placeholder="Enter ..." name="jefe_id" value="<?php /*echo $jefe_id;*/?>">-->
-        <select name="jefe_id" value="<?php echo $jefe_id;?>">
 
-            <option>100</option>
 
-            <option>102</option>
+    <div class="input-group">
 
-            <option>103</option>
-
-        </select>
-
-        <div class="ui basic label">
-            Jefe id
-        </div>
+        <label for="">jefe_id</label>
+        <input type="text" name="jefe_id" value="<?php echo $jefe_id;?>">
     </div>
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="departamento_id" value="<?php echo $departamento_id;?>">
+   <!-- <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="departamento_id" value="<?php /*echo $departamento_id;*/?>">
         <div class="ui basic label">
             Departamento Id
         </div>
+    </div>-->
+
+    <div class="input-group">
+
+        <label for="">departamento_id</label>
+        <input type="text" name="departamento_id" value="<?php echo $departamento_id;?>">
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="sexo" value="<?php echo $sexo;?>">
+  <!--  <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="sexo" value="<?php /*echo $sexo;*/?>">
         <div class="ui basic label">
             Sexo
         </div>
+    </div>-->
+
+    <div class="input-group">
+
+        <label for="">sexo</label>
+        <input type="text" name="sexo" value="<?php echo $sexo;?>">
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="genero" value="<?php echo $genero;?>">
+  <!--  <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="genero" value="<?php /*echo $genero;*/?>">
         <div class="ui basic label">
             Genero
         </div>
+    </div>-->
+
+    <div class="input-group">
+
+        <label for="">genero</label>
+        <input type="text" name="genero" value="<?php echo $genero;?>">
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="primer_nombre" value="<?php echo $primer_nombre;?>">
+   <!-- <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="primer_nombre" value="<?php /*echo $primer_nombre;*/?>">
         <div class="ui basic label">
             Estado Civil
         </div>
+    </div>-->
+
+    <div class="input-group">
+
+        <label for="">estado_civil</label>
+        <input type="text" name="estado_civil" value="<?php echo $estado_civil;?>">
     </div>
 
 
