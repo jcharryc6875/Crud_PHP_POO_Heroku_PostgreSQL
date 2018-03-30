@@ -129,71 +129,85 @@
             Primer Nombre
         </div>
     </div>
-    
-    <div class="input-group">
-
-        <label for="">Segundo Nombre</label>
-        <input type="text" name="segundo_nombre" value="<?php echo $segundo_nombre;?>">
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
+        <input type="text" name="correo" value="<?php echo $correo;?>">
+        <div class="ui basic label">
+            Correo
+        </div>
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="numero_telefono" value="<?php echo $numero_telefono;?>">
+        <div class="ui basic label">
+            Numero_Telefono
+        </div>
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="fecha_ingreso" value="<?php echo $fecha_ingreso;?>">
+        <div class="ui basic label">
+            Fecha Ingreso
+        </div>
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="trabajo_id" value="<?php echo $trabajo_id;?>">
+        <div class="ui basic label">
+            Trabajo Id
+        </div>
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="salario" value="<?php echo $salario;?>">
+        <div class="ui basic label">
+            Salario
+        </div>
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="jefe_id" value="<?php echo $jefe_id;?>">
+        <div class="ui basic label">
+            Jefe id
+        </div>
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="departamento_id" value="<?php echo $departamento_id;?>">
+        <div class="ui basic label">
+            Departamento Id
+        </div>
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="sexo" value="<?php echo $sexo;?>">
+        <div class="ui basic label">
+            Sexo
+        </div>
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="genero" value="<?php echo $genero;?>">
+        <div class="ui basic label">
+            Genero
+        </div>
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">
+        <div class="ui basic label">
+            Primer Nombre
+        </div>
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="primer_nombre" value="<?php echo $primer_nombre;?>">
+        <div class="ui basic label">
+            Estado Civil
+        </div>
     </div>
 
-    <div class="input-group">
 
-        <label for="">Correo</label>
-        <input type="email" name="correo" value="<?php echo $correo;?>">
-    </div>
-
-    <div class="input-group">
-
-        <label for="">Numero_Telefono</label>
-        <input type="number" name="numero_telefono" value="<?php echo $numero_telefono;?>">
-    </div>
-
-    <div class="input-group">
-
-        <label for="">Fecha_Ingreso</label>
-        <input type="datetime-local" name="fecha_ingreso" value="<?php echo $fecha_ingreso;?>">
-    </div>
-
-    <div class="input-group">
-
-        <label for="">Trabajo Id</label>
-        <input type="text" name="trabajo_id" value="<?php echo $trabajo_id;?>">
-    </div>
-
-    <div class="input-group">
-
-        <label for="">Salario</label>
-        <input type="number" name="salario" value="<?php echo $salario;?>">
-    </div>
-
-    <div class="input-group">
-
-        <label for="">Jefe Id</label>
-        <input type="number" name="jefe_id" value="<?php echo $jefe_id;?>">
-    </div>
-
-    <div class="input-group">
-
-        <label for="">Departamento Id</label>
-        <input type="number" name="departamento_id" value="<?php echo $departamento_id;?>">
-    </div>
-
-    <div class="input-group">
-
-        <label for="">Sexo</label>
-        <input type="text" name="sexo" value="<?php echo $sexo;?>">
-    </div>
-
-    <div class="input-group">
-
-        <label for="">Genero</label>
-        <input type="text" name="genero" value="<?php echo $genero;?>">
-    </div>
-    <div class="input-group">
-
-        <label for="">Estado Civil</label>
-        <input type="text" name="estado_civil" value="<?php echo $estado_civil;?>">
-    </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="input-group">
        <!-- //actualizar registros
