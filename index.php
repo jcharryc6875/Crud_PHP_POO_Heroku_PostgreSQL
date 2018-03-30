@@ -241,7 +241,7 @@
     <div class="ui right labeled" >
         <select name="estado_civil">
 
-    <option><input type="range" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">SOLTERO</option>
+    <option><input type="" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">SOLTERO</option>
             <option><input type="checkbox" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">CASADO</option>
 
             <div class="ui basic label">
