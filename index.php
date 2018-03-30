@@ -80,7 +80,7 @@
             <th>genero</th>
             <th>estado_civil</th>
             
-            <th colspan="1" >Action</th>
+            <th colspan="4" >Action</th>
         </tr>
 
     </thead>
