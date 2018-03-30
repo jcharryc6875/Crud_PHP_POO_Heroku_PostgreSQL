@@ -124,7 +124,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
   <div class="ui right labeled input">
-        <input type="number" placeholder="Enter ..." name="empleado_id" value="<?php echo $empleado_id;?>">
+        <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="empleado_id" value="<?php echo $empleado_id;?>">
         <div class="ui basic label">
             empleado_id
         </div>
@@ -134,7 +134,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="primer_nombre" value="<?php echo $primer_nombre;?>">
+        <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="primer_nombre" value="<?php echo $primer_nombre;?>">
         <div class="ui basic label">
             Primer Nombre
         </div>
@@ -143,7 +143,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="segundo_nombre" value="<?php echo $segundo_nombre;?>">
+        <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="segundo_nombre" value="<?php echo $segundo_nombre;?>">
         <div class="ui basic label">
             Segundo Nombre
         </div>
@@ -151,7 +151,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="email" name="correo" value="<?php echo $correo;?>">
+        <input type="email" name="correo" autofocus maxlength="50" value="<?php echo $correo;?>">
         <div class="ui basic label">
             Correo
         </div>
@@ -160,7 +160,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="tel" placeholder="Enter ..." name="numero_telefono" value="<?php echo $numero_telefono;?>">
+        <input type="tel" placeholder="Enter ..." autofocus maxlength="15" name="numero_telefono" value="<?php echo $numero_telefono;?>">
         <div class="ui basic label">
             Numero_Telefono
         </div>
@@ -178,7 +178,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="trabajo_id" value="<?php echo $trabajo_id;?>">
+        <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="trabajo_id" value="<?php echo $trabajo_id;?>">
         <div class="ui basic label">
             Trabajo Id
         </div>
@@ -187,7 +187,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
    <div class="ui right labeled input">
-        <input type="number" placeholder="Enter ..." name="salario" value="<?php echo $salario;?>">
+        <input type="number" placeholder="Enter ..." autofocus maxlength="14" name="salario" value="<?php echo $salario;?>">
         <div class="ui basic label">
             Salario
         </div>
@@ -196,7 +196,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
      <div class="ui right labeled input">
-        <input type="number" placeholder="Enter ..." name="jefe_id" value="<?php echo $jefe_id;?>">
+        <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="jefe_id" value="<?php echo $jefe_id;?>">
         <div class="ui basic label">
             Jefe Id
         </div>
@@ -205,7 +205,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="number" placeholder="Enter ..." name="departamento_id" value="<?php echo $departamento_id;?>">
+        <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="departamento_id" value="<?php echo $departamento_id;?>">
         <div class="ui basic label">
             Departamento Id
         </div>
@@ -214,7 +214,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="sexo" value="<?php echo $sexo;?>">
+        <input type="text" placeholder="Enter ..." autofocus maxlength="1" name="sexo" value="<?php echo $sexo;?>">
         <div class="ui basic label">
             Sexo
         </div>
@@ -223,7 +223,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="genero" value="<?php echo $genero;?>">
+        <input type="text" placeholder="Enter ..." autofocus maxlength="20" autofocus name="genero" value="<?php echo $genero;?>">
         <div class="ui basic label">
             Genero
         </div>
@@ -246,7 +246,7 @@
     </div>-->
 
     <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">
+        <input type="text" placeholder="Enter ..." autofocus maxlength="10" name="estado_civil" value="<?php echo $estado_civil;?>">
         <div class="ui basic label">
             Estado Civil
         </div>
