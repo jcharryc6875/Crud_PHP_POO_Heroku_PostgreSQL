@@ -124,7 +124,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
   <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="empleado_id" value="<?php echo $empleado_id;?>">
+        <input type="number" placeholder="Enter ..." name="empleado_id" value="<?php echo $empleado_id;?>">
         <div class="ui basic label">
             empleado_id
         </div>
@@ -151,7 +151,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="text" name="correo" value="<?php echo $correo;?>">
+        <input type="email" name="correo" value="<?php echo $correo;?>">
         <div class="ui basic label">
             Correo
         </div>
@@ -160,7 +160,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="numero_telefono" value="<?php echo $numero_telefono;?>">
+        <input type="tel" placeholder="Enter ..." name="numero_telefono" value="<?php echo $numero_telefono;?>">
         <div class="ui basic label">
             Numero_Telefono
         </div>
@@ -169,7 +169,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="fecha_ingreso" value="<?php echo $fecha_ingreso;?>">
+        <input type="datetime-local" placeholder="Enter ..." name="fecha_ingreso" value="<?php echo $fecha_ingreso;?>">
         <div class="ui basic label">
             Fecha Ingreso
         </div>
@@ -187,7 +187,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="salario" value="<?php echo $salario;?>">
+        <input type="number" placeholder="Enter ..." name="salario" value="<?php echo $salario;?>">
         <div class="ui basic label">
             Salario
         </div>
@@ -196,16 +196,16 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
      <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="jefe_id" value="<?php echo $jefe_id;?>">
+        <input type="number" placeholder="Enter ..." name="jefe_id" value="<?php echo $jefe_id;?>">
         <div class="ui basic label">
-            Salario
+            Jefe Id
         </div>
     </div>
 
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="departamento_id" value="<?php echo $departamento_id;?>">
+        <input type="number" placeholder="Enter ..." name="departamento_id" value="<?php echo $departamento_id;?>">
         <div class="ui basic label">
             Departamento Id
         </div>
@@ -214,7 +214,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="sexo" value="<?php echo $sexo;?>">
+        <input type="checkbox" placeholder="Enter ..." name="sexo" value="<?php echo $sexo;?>">
         <div class="ui basic label">
             Sexo
         </div>
@@ -223,7 +223,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="genero" value="<?php echo $genero;?>">
+        <input type="checkbox" placeholder="Enter ..." name="genero" value="<?php echo $genero;?>">
         <div class="ui basic label">
             Genero
         </div>
@@ -233,7 +233,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">
+        <input type="checkbox" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">
         <div class="ui basic label">
             Estado Civil
         </div>
