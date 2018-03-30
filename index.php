@@ -60,7 +60,9 @@
 
       <?php endif;  ?>
 
-<table>
+
+
+<table class="ui inverted grey table ">
     <thead>
         <tr>
             <!--fronted 8) desplegar datos en html-->
