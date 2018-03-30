@@ -169,7 +169,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
    <div class="ui right labeled input">
-        <input type="datetime-local" placeholder="Enter ..." name="fecha_ingreso" value="<?php echo $fecha_ingreso;?>">
+        <input type="text" placeholder="Enter ..." name="fecha_ingreso" value="<?php echo $fecha_ingreso;?>">
         <div class="ui basic label">
             Fecha Ingreso
         </div>
@@ -232,11 +232,24 @@
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="checkbox" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">
+   <!-- <div class="ui right labeled input">
+        <input type="checkbox" placeholder="Enter ..." name="estado_civil" value="<?php /*echo $estado_civil;*/?>">
         <div class="ui basic label">
             Estado Civil
         </div>
+    </div>-->
+    <div class="ui right labeled" >
+        <select name="estado_civil">
+
+    <option><input type="checkbox" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">SOLTERO</option>
+            <option><input type="checkbox" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">CASADO</option>
+
+            <div class="ui basic label">
+            Estado Civil
+        </div>
+
+    </select>
+
     </div>
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
