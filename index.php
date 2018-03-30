@@ -239,16 +239,14 @@
         </div>
     </div>-->
     <div class="ui right labeled" >
-        <select name="estado_civil">
+       <select name="estado_civil" required>
+            <option value="<?php echo $estado_civil;?>">SOLTERO</option>
+            <option value="<?php echo $estado_civil;?>">CASADO</option>
+      </select>
 
-    <option><input type="" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">SOLTERO</option>
-            <option><input type="checkbox" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">CASADO</option>
-
-            <div class="ui basic label">
+        <div class="ui basic label">
             Estado Civil
         </div>
-
-    </select>
 
     </div>
 
