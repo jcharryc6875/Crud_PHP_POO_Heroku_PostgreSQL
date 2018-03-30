@@ -131,6 +131,13 @@
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." name="segundo_nombre" value="<?php echo $segundo_nombre;?>">
+        <div class="ui basic label">
+            Segundo Nombre
+        </div>
+    </div>
+    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+    <div class="ui right labeled input">
         <input type="text" name="correo" value="<?php echo $correo;?>">
         <div class="ui basic label">
             Correo
@@ -193,12 +200,7 @@
         </div>
     </div>
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." name="estado_civil" value="<?php echo $estado_civil;?>">
-        <div class="ui basic label">
-            Primer Nombre
-        </div>
-    </div>
+
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
         <input type="text" placeholder="Enter ..." name="primer_nombre" value="<?php echo $primer_nombre;?>">
