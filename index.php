@@ -288,13 +288,6 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
-    <div class="ui animated fade button" tabindex="0">
-        <div class="visible content"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Guardar</font></font></div>
-        <div class="hidden content"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                  Estas Seguro que quieres guardar
-                </font></font></div>
-    </div>
-
 
 
 </form>
