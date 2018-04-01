@@ -52,10 +52,10 @@
     <div class="header item">
        CRUD PHP HEROKU POSTGRESQL
     </div>
-    <a class="item active " >
-        DEPARTMENTS
+    <a class="item active " href="index.php">
+        EMPLOYEES
     </a>
-    <a class="item">
+    <a class="item" href="DEPARTMENTS.php">
         DEPARTMENTS
     </a>
     <a class="item">

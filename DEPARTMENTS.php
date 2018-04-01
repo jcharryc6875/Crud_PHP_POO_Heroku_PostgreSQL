@@ -49,6 +49,7 @@ if(isset($_GET['edit'])){
     </a>
     <a class="item" href="DEPARTMENTS.php">
         DEPARTMENTS
+        <i ></i>
     </a>
     <a class="item">
         JOBS
