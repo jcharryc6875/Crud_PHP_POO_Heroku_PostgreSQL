@@ -46,21 +46,21 @@ if(isset($_GET['edit'])){
 <div class="ui left demo vertical inverted sidebar labeled icon menu visible">
     <a class="item">
 
-        <i class="home icon" ></i>
-        <a href="index.php">EMPLOYEES
-        </a>
+        <i class="home icon" > <a href="index.php">EMPLOYEES
+            </a></i>
+
     </a>
     <a class="item">
 
-        <i class="block layout icon"></i>
-        <a href="DEPARTMENTS.php">DEPARTMENTS
-        </a>
+        <i class="block layout icon"> <a href="DEPARTMENTS.php">DEPARTMENTS
+            </a></i>
+
     </a>
     <a class="item">
 
-        <i class="smile icon"></i>
-        <a href="JOBS.php">JOBS
-    </a>
+        <i class="smile icon"> <a href="JOBS.php">JOBS
+            </a></i>
+
     </a>
 </div>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
