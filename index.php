@@ -52,9 +52,8 @@
     <div class="header item">
        CRUD PHP HEROKU POSTGRESQL
     </div>
-    <a class="item active">
-        <i class="icon link" data-content="Hello. This is a mini popup" data-variation="mini">EMPLOYEES</i>
-
+    <a class="item active link " data-content="Hello. This is a mini popup" data-variation="mini">
+        DEPARTMENTS
     </a>
     <a class="item">
         DEPARTMENTS
