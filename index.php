@@ -255,30 +255,16 @@
 
         </div>
     </div>-->
-   <!-- <div class="ui right labeled input ">
-    <select name="estado_civil" >
 
-        <option value="<?php /*echo $estado_civil;*/?>">SOLTERO</option>
-        <option value="<?php /*echo $estado_civil;*/?>">CASADO</option>
-        <option value="<?php /*echo $estado_civil;*/?>">VIUDO</option>
-        <option value="<?php /*echo $estado_civil;*/?>">UNION-LIBRE</option>
-
-    </select>
-    <div class="ui teal   label">
-        Estado Civil
-
-    </div>
-    </div>-->
+ 
 
     <div class="field">
-        <label>State</label>
-        <select class="ui fluid dropdown">
-            <option value="">State</option>
-            <option value="AL">Alabama</option>
-            <option value="AK">Alaska</option>
-            <option value="AZ">Arizona</option>
-            <option value="AR">Arkansas</option>
-            <option value="CA">California</option>
+        <label class="ui teal   label">Estado Civil</label>
+        <select class="ui fluid dropdown" name="estado_civil">
+            <option value="<?php echo $estado_civil;?>" name="estado_civil">SOLTERO</option>
+            <option value="<?php echo $estado_civil;?>" name="estado_civil">CASADO</option>
+            <option value="<?php echo $estado_civil;?>" name="estado_civil">VIUDO</option>
+            <option value="<?php echo $estado_civil;?>" name="estado_civil">UNION-LIBRE</option>
         </select>
     </div>
 
