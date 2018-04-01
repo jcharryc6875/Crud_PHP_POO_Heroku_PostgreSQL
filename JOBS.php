@@ -57,7 +57,7 @@ if(isset($_GET['edit'])){
 </div>
 
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-<div class="ui left demo vertical inverted sidebar labeled icon menu">
+<div class="ui left demo vertical inverted sidebar labeled icon menu visible">
     <a class="item">
         <i class="home icon"></i>
         Home
