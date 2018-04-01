@@ -53,7 +53,8 @@
        CRUD PHP HEROKU POSTGRESQL
     </div>
     <a class="item active">
-        EMPLOYEES
+        <i class="icon link" data-content="Hello. This is a mini popup" data-variation="mini">EMPLOYEES</i>
+
     </a>
     <a class="item">
         DEPARTMENTS
@@ -121,11 +122,11 @@
         <td><?php echo $row['estado_civil']; ?></td>
         <td>
             <!--10)//actualizar registros-->
-            <a class="ui circular blue  icon button" href="index.php?edit=<?php echo $row['empleado_id'];?>" data-content="Hello. This is an inverted popup" data-variation="inverted"> Edit</a>
+            <a class="ui circular blue  icon button" href="index.php?edit=<?php echo $row['empleado_id'];?>"> Edit</a>
         </td>
         <td>
            <!-- 11)BORRAR REGISTROS-->
-            <a class="ui circular teal twitter icon button" href="server.php?del=<?php echo $row['empleado_id'];?>" data-content=\"Hello. This is an inverted popup\" data-variation=\"inverted\">Delete</a>
+            <a class="ui circular teal twitter icon button" href="server.php?del=<?php echo $row['empleado_id'];?>" >Delete</a>
         </td>
     </tr>
 
