@@ -1,17 +1,17 @@
 <?php
-include_once('DEPARTMENTS_SERVER.php');//SERVIDOR BACKEND
+include_once('JOBS_SERVER.php');//SERVIDOR BACKEND
 
 //fetch the record to be updated
 if(isset($_GET['edit'])){
-    $departamento_id = $_GET['edit'];
+    $trabajo_id = $_GET['edit'];
     $edit_state = true;
     //frontend 7) llamara datos
-    $rec = pg_query($db, "SELECT * FROM departments WHERE departamento_id=$departamento_id");
+    $rec = pg_query($db, "SELECT * FROM jobs WHERE trabajo_id=$trabajo_id");
     $record = pg_fetch_array($rec);
-    $departamento_id = $record['departamento_id'];
-    $nombre_departamento = $record['nombre_departamento'];
-    $jefe_id = $record['jefe_id'];
-    $localizacion_id = $record['localizacion_id'];
+    $trabajo_id = $record['trabajo_id'];
+    $titulo_trabajo = $record['titulo_trabajo'];
+    $min_salario = $record['min_salario'];
+    $max_salario = $record['max_salario'];
 
 
 
@@ -75,10 +75,10 @@ if(isset($_GET['edit'])){
     <thead>
     <tr>
         <!--fronted 8) desplegar datos en html-->
-        <th>departamento_id</th>
-        <th>nombre_departamento</th>
-        <th>jefe_id</th>
-        <th>localizacion_id</th>
+        <th>trabajo_id</th>
+        <th>titulo_trabajo</th>
+        <th>min_salario</th>
+        <th>max_salario</th>
 
 
         <th colspan="2" >Action</th>
@@ -91,18 +91,18 @@ if(isset($_GET['edit'])){
     <!-- 9)llamando registros de la base de datos-->
     <?php while ($row = pg_fetch_array($results))   { ?>
         <tr>
-            <td><?php echo $row['departamento_id']; ?></td>
-            <td><?php echo $row['nombre_departamento']; ?></td>
-            <td><?php echo $row['jefe_id']; ?></td>
-            <td><?php echo $row['localizacion_id']; ?></td>
+            <td><?php echo $row['trabajo_id']; ?></td>
+            <td><?php echo $row['titulo_trabajo']; ?></td>
+            <td><?php echo $row['min_salario']; ?></td>
+            <td><?php echo $row['max_salario']; ?></td>
 
             <td>
                 <!--10)//actualizar registros-->
-                <a class="ui circular blue  icon button" href="DEPARTMENTS.php?edit=<?php echo $row['departamento_id'];?>"> Edit</a>
+                <a class="ui circular blue  icon button" href="JOBS.php?edit=<?php echo $row['trabajo_id'];?>"> Edit</a>
             </td>
             <td>
                 <!-- 11)BORRAR REGISTROS-->
-                <a class="ui circular teal twitter icon button" href="DEPARTMENTS_SERVER.php?del=<?php echo $row['departamento_id'];?>" >Delete</a>
+                <a class="ui circular teal twitter icon button" href="JOBS_SERVER.php?del=<?php echo $row['trabajo_id'];?>" >Delete</a>
             </td>
         </tr>
 
@@ -111,15 +111,15 @@ if(isset($_GET['edit'])){
 
 </table>
 <!--server.php conexion con la base de datos-->
-<form action="DEPARTMENTS_SERVER.php"  method="POST">
+<form action="JOBS_SERVER.php"  method="POST">
     <!--//12) actualizar registros en el formulario-->
-    <input type="hidden" name="empleado_id"  value="<?php echo $departamento_id;?>">
+    <input type="hidden" name="trabajo_id"  value="<?php echo $trabajo_id;?>">
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="departamento_id" value="<?php echo $departamento_id;?>">
+        <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="trabajo_id" value="<?php echo $trabajo_id;?>">
         <div class="ui teal  label">
-            departamento_id
+            trabajo_id
         </div>
     </div>
 
@@ -127,26 +127,26 @@ if(isset($_GET['edit'])){
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input ">
-        <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="nombre_departamento" value="<?php echo $nombre_departamento;?>">
+        <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="titulo_trabajo" value="<?php echo $titulo_trabajo;?>">
         <div class="ui teal   label">
-            nombre_departamento
+            titulo_trabajo
         </div>
     </div>
 
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input ">
-        <input type="number" placeholder="Enter ..." autofocus maxlength="20" name="jefe_id" value="<?php echo $jefe_id;?>">
+        <input type="number" placeholder="Enter ..." autofocus maxlength="20" name="min_salario" value="<?php echo $min_salario;?>">
         <div class="ui teal   label">
-            jefe_id
+            min_salario
         </div>
     </div>
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input ">
-        <input type="number" placeholder="Enter ..." name="localizacion_id" autofocus maxlength="50" value="<?php echo $localizacion_id;?>">
+        <input type="number" placeholder="Enter ..." name="max_salario" autofocus maxlength="50" value="<?php echo $max_salario;?>">
         <div class="ui teal   label">
-            localizacion_id
+            max_salario
         </div>
     </div>
 

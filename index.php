@@ -58,7 +58,7 @@
     <a class="item" href="DEPARTMENTS.php">
         DEPARTMENTS
     </a>
-    <a class="item">
+    <a class="item" href="JOBS.php">
         JOBS
     </a>
 </div>
