@@ -139,8 +139,8 @@
    <input type="hidden" name="empleado_id"  value="<?php echo $empleado_id;?>">
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-  <div class="ui right labeled input loading">
-        <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="empleado_id" value="<?php echo $empleado_id;?>">
+  <div class="ui right labeled input">
+        <input type="number" placeholder="Enter ..." autofocus maxlength="3" class="loading" name="empleado_id" value="<?php echo $empleado_id;?>">
         <div class="ui teal  label">
             empleado_id
         </div>
