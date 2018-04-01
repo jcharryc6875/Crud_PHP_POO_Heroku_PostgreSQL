@@ -92,7 +92,7 @@
         $sexo = pg_escape_string($_POST['sexo']);
         $genero = pg_escape_string($_POST['genero']);
         $estado_civil = pg_escape_string($_POST['estado_civil']);
-        $empleado_id = pg_escape_string(mb_strtoupper($_POST['empleado_id']));
+        $empleado_id = pg_escape_string($_POST['empleado_id']);
 
 
         pg_query($db, "UPDATE employees SET empleado_id='$empleado_id', primer_nombre='$primer_nombre', segundo_nombre='$segundo_nombre', correo='$correo' , numero_telefono='$numero_telefono', fecha_ingreso='$fecha_ingreso', trabajo_id='$trabajo_id', salario='$salario',jefe_id='$jefe_id', departamento_id='$departamento_id', sexo='$sexo', genero='$genero', estado_civil='$estado_civil' WHERE empleado_id=$empleado_id");
