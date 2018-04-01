@@ -55,6 +55,22 @@ if(isset($_GET['edit'])){
         JOBS
     </a>
 </div>
+
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+<div class="ui left demo vertical inverted sidebar labeled icon menu">
+    <a class="item">
+        <i class="home icon"></i>
+        Home
+    </a>
+    <a class="item">
+        <i class="block layout icon"></i>
+        Topics
+    </a>
+    <a class="item">
+        <i class="smile icon"></i>
+        Friends
+    </a>
+</div>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
 <!--//Mostrar notificaciones de mensajes
@@ -117,7 +133,7 @@ if(isset($_GET['edit'])){
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="trabajo_id" value="<?php echo $trabajo_id;?>">
+        <input type="text" placeholder="Enter ..." autofocus maxlength="3" name="trabajo_id" value="<?php echo $trabajo_id;?>">
         <div class="ui teal  label">
             trabajo_id
         </div>
@@ -173,6 +189,14 @@ if(isset($_GET['edit'])){
 
 
 </form>
+
+
+<script src="js/semantic.js">
+
+    $('.ui.labeled.icon.sidebar')
+        .sidebar('toggle') ;
+
+</script>
 
 
 </body>
