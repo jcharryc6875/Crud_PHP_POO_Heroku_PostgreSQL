@@ -42,33 +42,39 @@ if(isset($_GET['edit'])){
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 <div class="ui teal  menu">
     <div class="header item">
-        CRUD PHP HEROKU POSTGRESQL
+
     </div>
-    <a class="item active " href="index.php" >
-        EMPLOYEES
+    <a class="item active " href="#" >
+
     </a>
-    <a class="item" href="DEPARTMENTS.php">
-        DEPARTMENTS
-        <i ></i>
+    <a class="item" href="#">
+
+
     </a>
-    <a class="item" href="JOBS.php">
-        JOBS
+    <a class="item" href="#">
+        CRUD PHP HEROKU POSTGRESQL
     </a>
 </div>
 
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 <div class="ui left demo vertical inverted sidebar labeled icon menu visible">
     <a class="item">
-        <i class="home icon"></i>
-        Home
+        <a href="index.php">
+        <i class="home icon" ></i>
+        EMPLOYEES
+        </a>
     </a>
     <a class="item">
+        <a href="DEPARTMENTS.php">
         <i class="block layout icon"></i>
-        Topics
+        DEPARTMENTS
+        </a>
     </a>
     <a class="item">
+        <a href="JOBS.php">
         <i class="smile icon"></i>
-        Friends
+        JOBS
+    </a>
     </a>
 </div>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->

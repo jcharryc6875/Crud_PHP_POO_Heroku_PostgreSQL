@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+              <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="12" />
               <folding>
                 <marker date="1522565174961" expanded="true" signature="234:276" ph="SELECT * FRO... info" />
                 <marker date="1522565174961" expanded="true" signature="234:286" ph="SELECT * FRO... info" />
@@ -31,10 +31,10 @@
       <file leaf-file-name="JOBS.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JOBS.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="59" column="76" lean-forward="false" selection-start-line="59" selection-start-column="76" selection-end-line="59" selection-end-column="76" />
+            <state relative-caret-position="485">
+              <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
               <folding>
-                <marker date="1522566700802" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
+                <marker date="1522567044029" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
               </folding>
             </state>
           </provider>
@@ -251,12 +251,12 @@
       <workItem from="1522351086425" duration="16600000" />
       <workItem from="1522387837754" duration="12205000" />
       <workItem from="1522441384020" duration="13168000" />
-      <workItem from="1522555674124" duration="10168000" />
+      <workItem from="1522555674124" duration="10510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82848000" />
+    <option name="totallyTimeSpent" value="83190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -558,7 +558,7 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+          <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="12" />
           <folding>
             <marker date="1522565174961" expanded="true" signature="234:276" ph="SELECT * FRO... info" />
             <marker date="1522565174961" expanded="true" signature="234:286" ph="SELECT * FRO... info" />
@@ -569,10 +569,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JOBS.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="59" column="76" lean-forward="false" selection-start-line="59" selection-start-column="76" selection-end-line="59" selection-end-column="76" />
+        <state relative-caret-position="485">
+          <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
           <folding>
-            <marker date="1522566700802" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
+            <marker date="1522567044029" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
           </folding>
         </state>
       </provider>
