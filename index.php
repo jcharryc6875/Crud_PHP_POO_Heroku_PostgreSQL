@@ -248,12 +248,26 @@
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." autofocus maxlength="10" name="estado_civil" value="<?php echo $estado_civil;?>">
+   <!-- <div class="ui right labeled input">
+        <input type="text" placeholder="Enter ..." autofocus maxlength="10" name="estado_civil" value="<?php /*echo $estado_civil;*/?>">
         <div class="ui teal   label">
             Estado Civil
 
         </div>
+    </div>-->
+    <div class="ui right labeled input">
+    <select name="estado_civil" >
+
+        <option value="<?php echo $estado_civil;?>">SOLTERO</option>
+        <option value="<?php echo $estado_civil;?>">CASADO</option>
+        <option value="<?php echo $estado_civil;?>">VIUDO</option>
+        <option value="<?php echo $estado_civil;?>">UNION-LIBRE</option>
+
+    </select>
+    <div class="ui teal   label">
+        Estado Civil
+
+    </div>
     </div>
 
 
