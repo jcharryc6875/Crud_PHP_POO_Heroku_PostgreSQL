@@ -279,11 +279,11 @@
         <?php   if ($edit_state == false): ?>
 
         <button type="submit" name="save" class="btn">Guardar</button>
-            <button type="button"  class="ui loading button"></button>
+            <button type="button" onclick="alert('Hola mundo')"  class="ui loading button"></button>
         <?php else: ?>
 
         <button type="submit" name="update" class="btn">Actualizar</button>
-            <button type="button"  class="ui primary loading button"></button>
+            <button type="button" onclick="alert('Hola mundo')"  class="ui primary loading button"></button>
         <?php endif; ?>
 
     </div>
