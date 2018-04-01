@@ -121,11 +121,11 @@
         <td><?php echo $row['estado_civil']; ?></td>
         <td>
             <!--10)//actualizar registros-->
-            <a class="ui red button" href="index.php?edit=<?php echo $row['empleado_id'];?>"> Edit</a>
+            <a class="ui circular red  icon button" href="index.php?edit=<?php echo $row['empleado_id'];?>"> Edit</a>
         </td>
         <td>
            <!-- 11)BORRAR REGISTROS-->
-            <a class="ui green button" href="server.php?del=<?php echo $row['empleado_id'];?>">Delete</a>
+            <a class="ui circular yellow twitter icon button" href="server.php?del=<?php echo $row['empleado_id'];?>">Delete</a>
         </td>
     </tr>
 
