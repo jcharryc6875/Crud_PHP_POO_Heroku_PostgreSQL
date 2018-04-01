@@ -249,7 +249,7 @@
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." autofocus maxlength="10" name="estado_civil" value="<?php echo $estado_civil;?>">
+        <input type="text" placeholder="Enter ..." autofocus maxlength="10" name="estado_civil" value="<?php echo strtoupper($estado_civil);?>">
         <div class="ui teal   label">
             Estado Civil
 
