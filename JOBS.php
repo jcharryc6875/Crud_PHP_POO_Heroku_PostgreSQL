@@ -32,26 +32,24 @@ if(isset($_GET['edit'])){
     <!--    //SEMANTIC UI CON  JQUERY-->
 
     <script
-        src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous"></script>
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
     <script src="js/semantic.js"></script>
 
 </head>
 <body>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-
-
-<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 <div class="ui teal  menu">
     <div class="header item">
         CRUD PHP HEROKU POSTGRESQL
     </div>
-    <a class="item active " href="index.php">
+    <a class="item active " href="index.php" >
         EMPLOYEES
     </a>
     <a class="item" href="DEPARTMENTS.php">
         DEPARTMENTS
+        <i ></i>
     </a>
     <a class="item" href="JOBS.php">
         JOBS
@@ -73,7 +71,7 @@ if(isset($_GET['edit'])){
 
 
 
-<table class="ui inverted teal table celled">
+<table class="ui inverted blue table celled">
     <thead>
     <tr>
         <!--fronted 8) desplegar datos en html-->
@@ -113,7 +111,7 @@ if(isset($_GET['edit'])){
 
 </table>
 <!--server.php conexion con la base de datos-->
-<form action="JOBS_SERVER.php"  method="POST" class="ui form">
+<form action="JOBS_SERVER.php"  method="POST"  class="ui form">
     <!--//12) actualizar registros en el formulario-->
     <input type="hidden" name="trabajo_id"  value="<?php echo $trabajo_id;?>">
 
@@ -121,11 +119,14 @@ if(isset($_GET['edit'])){
     <div class="field">
         <div class="two fields">
             <div class="ui right labeled input">
-                <input type="text" placeholder="Enter ..." autofocus maxlength="3" name="trabajo_id" value="<?php echo $trabajo_id;?>">
+                <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="trabajo_id" value="<?php echo $trabajo_id;?>">
                 <div class="ui teal  label">
                     trabajo_id
                 </div>
             </div>
+
+
+
 
             <div class="ui right labeled input ">
                 <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="titulo_trabajo" value="<?php echo $titulo_trabajo;?>">
@@ -180,9 +181,6 @@ if(isset($_GET['edit'])){
 
 
 </form>
-
-
-
 
 
 </body>
