@@ -134,7 +134,7 @@
 
 </table>
 <!--server.php conexion con la base de datos-->
-<form action="server.php"  method="POST">
+<form action="server.php"  method="POST" class="ui form" >
     <!--//12) actualizar registros en el formulario-->
    <input type="hidden" name="empleado_id"  value="<?php echo $empleado_id;?>">
 
