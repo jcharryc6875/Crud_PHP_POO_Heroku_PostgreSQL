@@ -155,7 +155,7 @@
    <div class="field">
        <div class="two fields">
 
-           <div class="ui right labeled input  ">
+           <div class="ui right labeled input  left corner ">
                <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="primer_nombre" value="<?php echo $primer_nombre;?>">
                <div class="ui teal   label">
                    Primer Nombre

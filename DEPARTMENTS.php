@@ -141,20 +141,20 @@ if(isset($_GET['edit'])){
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="field">
             <div class="two fields">
-        <div class="ui right labeled input ">
-            <input type="number" placeholder="Enter ..." autofocus maxlength="20" name="jefe_id" value="<?php echo $jefe_id;?>">
-            <div class="ui teal   label">
-                jefe_id
-            </div>
-        </div>
+                <div class="ui right labeled input ">
+                    <input type="number" placeholder="Enter ..." autofocus maxlength="20" name="jefe_id" value="<?php echo $jefe_id;?>">
+                    <div class="ui teal   label">
+                        jefe_id
+                    </div>
+                </div>
 
 
-        <div class="ui right labeled input ">
-            <input type="number" placeholder="Enter ..." name="localizacion_id" autofocus maxlength="50" value="<?php echo $localizacion_id;?>">
-            <div class="ui teal   label">
-                localizacion_id
-            </div>
-        </div>
+                <div class="ui right labeled input ">
+                    <input type="number" placeholder="Enter ..." name="localizacion_id" autofocus maxlength="50" value="<?php echo $localizacion_id;?>">
+                    <div class="ui teal   label">
+                        localizacion_id
+                    </div>
+                </div>
             </div>
     </div>
 
