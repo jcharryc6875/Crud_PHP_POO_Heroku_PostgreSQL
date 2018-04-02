@@ -177,19 +177,24 @@
    </div>
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input field">
-        <input type="email" placeholder="Enter ..." name="correo" autofocus maxlength="50" value="<?php echo $correo;?>">
-        <div class="ui teal   label">
-            Correo
+
+    <div class="field">
+        <div class="two fields">
+        <div class="ui right labeled input ">
+            <input type="email" placeholder="Enter ..." name="correo" autofocus maxlength="50" value="<?php echo $correo;?>">
+            <div class="ui teal   label">
+                Correo
+            </div>
         </div>
-    </div>
 
 
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input field">
-        <input type="number" placeholder="Enter ..." autofocus maxlength="15" name="numero_telefono" value="<?php echo $numero_telefono;?>">
-        <div class="ui teal   label">
-            Numero_Telefono
+        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+        <div class="ui right labeled input ">
+            <input type="number" placeholder="Enter ..." autofocus maxlength="15" name="numero_telefono" value="<?php echo $numero_telefono;?>">
+            <div class="ui teal   label">
+                Numero_Telefono
+            </div>
+        </div>
         </div>
     </div>
 
