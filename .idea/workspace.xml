@@ -38,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JOBS.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JOBS.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JOBS.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="2904">
               <caret line="121" column="82" lean-forward="false" selection-start-line="121" selection-start-column="82" selection-end-line="121" selection-end-column="82" />
               <folding>
                 <marker date="1522665881031" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
@@ -50,16 +50,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JOBS_SERVER.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JOBS_SERVER.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JOBS_SERVER.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="69" column="151" lean-forward="false" selection-start-line="69" selection-start-column="151" selection-end-line="69" selection-end-column="151" />
+            <state relative-caret-position="1776">
+              <caret line="79" column="64" lean-forward="false" selection-start-line="79" selection-start-column="64" selection-end-line="79" selection-end-column="64" />
               <folding>
-                <marker date="1522665568796" expanded="true" signature="1044:1182" ph="INSERT INTO jobs... " />
-                <marker date="1522665568796" expanded="true" signature="1716:1865" ph="UPDATE jobs... " />
-                <marker date="1522665568796" expanded="true" signature="2116:2150" ph="DELETE FROM departments... " />
-                <marker date="1522665568796" expanded="true" signature="2363:2381" ph="SELECT * FRO... jobs" />
+                <marker date="1522666466726" expanded="true" signature="967:1114" ph="INSERT INTO jobs... " />
+                <marker date="1522666466726" expanded="true" signature="1655:1805" ph="UPDATE jobs... " />
+                <marker date="1522666466726" expanded="true" signature="2063:2097" ph="DELETE FROM jobs... " />
+                <marker date="1522666466726" expanded="true" signature="2317:2335" ph="SELECT * FRO... jobs" />
               </folding>
             </state>
           </provider>
@@ -80,8 +80,8 @@
       <file leaf-file-name="DEPARTMENTS_SERVER.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DEPARTMENTS_SERVER.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="2" />
+            <state relative-caret-position="725">
+              <caret line="88" column="4" lean-forward="true" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
               <folding>
                 <marker date="1522563484530" expanded="true" signature="1074:1246" ph="INSERT INTO employees... " />
                 <marker date="1522563484530" expanded="true" signature="1807:1989" ph="UPDATE departments... " />
@@ -134,8 +134,8 @@
         <option value="$PROJECT_DIR$/DEPARTMENTS.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/estilos.css" />
-        <option value="$PROJECT_DIR$/JOBS_SERVER.php" />
         <option value="$PROJECT_DIR$/JOBS.php" />
+        <option value="$PROJECT_DIR$/JOBS_SERVER.php" />
       </list>
     </option>
   </component>
@@ -264,12 +264,12 @@
       <workItem from="1522387837754" duration="12205000" />
       <workItem from="1522441384020" duration="13168000" />
       <workItem from="1522555674124" duration="11245000" />
-      <workItem from="1522657352068" duration="8114000" />
+      <workItem from="1522657352068" duration="8699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92039000" />
+    <option name="totallyTimeSpent" value="92624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -335,10 +335,10 @@
         <state relative-caret-position="2016">
           <caret line="89" column="44" lean-forward="false" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
           <folding>
-            <marker date="1522665568796" expanded="true" signature="1044:1182" ph="INSERT INTO jobs... " />
-            <marker date="1522665568796" expanded="true" signature="1716:1865" ph="UPDATE jobs... " />
-            <marker date="1522665568796" expanded="true" signature="2116:2150" ph="DELETE FROM departments... " />
-            <marker date="1522665568796" expanded="true" signature="2363:2381" ph="SELECT * FRO... jobs" />
+            <marker date="1522666466726" expanded="true" signature="967:1114" ph="INSERT INTO jobs... " />
+            <marker date="1522666466726" expanded="true" signature="1655:1805" ph="UPDATE jobs... " />
+            <marker date="1522666466726" expanded="true" signature="2063:2097" ph="DELETE FROM jobs... " />
+            <marker date="1522666466726" expanded="true" signature="2317:2335" ph="SELECT * FRO... jobs" />
           </folding>
         </state>
       </provider>
@@ -582,19 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DEPARTMENTS_SERVER.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="2" />
-          <folding>
-            <marker date="1522563484530" expanded="true" signature="1074:1246" ph="INSERT INTO employees... " />
-            <marker date="1522563484530" expanded="true" signature="1807:1989" ph="UPDATE departments... " />
-            <marker date="1522563484530" expanded="true" signature="2257:2303" ph="DELETE FROM employees... " />
-            <marker date="1522563484530" expanded="true" signature="2528:2553" ph="SELECT * FRO... departments" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imagenes/287069.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -638,25 +625,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JOBS_SERVER.php">
+    <entry file="file://$PROJECT_DIR$/JOBS.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="69" column="151" lean-forward="false" selection-start-line="69" selection-start-column="151" selection-end-line="69" selection-end-column="151" />
+        <state relative-caret-position="2904">
+          <caret line="121" column="82" lean-forward="false" selection-start-line="121" selection-start-column="82" selection-end-line="121" selection-end-column="82" />
           <folding>
-            <marker date="1522665568796" expanded="true" signature="1044:1182" ph="INSERT INTO jobs... " />
-            <marker date="1522665568796" expanded="true" signature="1716:1865" ph="UPDATE jobs... " />
-            <marker date="1522665568796" expanded="true" signature="2116:2150" ph="DELETE FROM departments... " />
-            <marker date="1522665568796" expanded="true" signature="2363:2381" ph="SELECT * FRO... jobs" />
+            <marker date="1522665881031" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JOBS.php">
+    <entry file="file://$PROJECT_DIR$/DEPARTMENTS_SERVER.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="121" column="82" lean-forward="false" selection-start-line="121" selection-start-column="82" selection-end-line="121" selection-end-column="82" />
+        <state relative-caret-position="725">
+          <caret line="88" column="4" lean-forward="true" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
           <folding>
-            <marker date="1522665881031" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
+            <marker date="1522563484530" expanded="true" signature="1074:1246" ph="INSERT INTO employees... " />
+            <marker date="1522563484530" expanded="true" signature="1807:1989" ph="UPDATE departments... " />
+            <marker date="1522563484530" expanded="true" signature="2257:2303" ph="DELETE FROM employees... " />
+            <marker date="1522563484530" expanded="true" signature="2528:2553" ph="SELECT * FRO... departments" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JOBS_SERVER.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1776">
+          <caret line="79" column="64" lean-forward="false" selection-start-line="79" selection-start-column="64" selection-end-line="79" selection-end-column="64" />
+          <folding>
+            <marker date="1522666466726" expanded="true" signature="967:1114" ph="INSERT INTO jobs... " />
+            <marker date="1522666466726" expanded="true" signature="1655:1805" ph="UPDATE jobs... " />
+            <marker date="1522666466726" expanded="true" signature="2063:2097" ph="DELETE FROM jobs... " />
+            <marker date="1522666466726" expanded="true" signature="2317:2335" ph="SELECT * FRO... jobs" />
           </folding>
         </state>
       </provider>

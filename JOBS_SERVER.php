@@ -12,10 +12,10 @@ session_start();
 //INICIALIZAR VARIABLES
 
 //1)variables para conectar con employees
-$trabajo_id = "";//1
-$titulo_trabajo = "";//2
-$min_salario = "";//3
-$max_salario = "";//4
+$trabajo_id = "";
+$titulo_trabajo = "";
+$min_salario = "";
+$max_salario = "";
 
 
 
@@ -35,8 +35,7 @@ $db = pg_connect("host=ec2-174-129-206-173.compute-1.amazonaws.com port=5432 dbn
 if(isset($_POST['save'])){
     //2)empiezo a pasar los nombres de los atributos de mi formulario
 
-    //$name = $_POST['name'];
-    //$address = $_POST['address'];
+
     $trabajo_id = $_POST['trabajo_id'];
     $titulo_trabajo = $_POST['titulo_trabajo'];
     $min_salario = $_POST['min_salario'];
@@ -46,13 +45,14 @@ if(isset($_POST['save'])){
 
     //3) hacemos la query de insertar datos
 
-    $query = "INSERT INTO jobs(trabajo_id,titulo_trabajo,min_salario,max_salario) VALUES('$trabajo_id', '$titulo_trabajo','$min_salario','$max_salario')";
+    $query = "INSERT INTO jobs(trabajo_id,titulo_trabajo,min_salario,max_salario) VALUES('$trabajo_id', '$titulo_trabajo',
+        '$min_salario','$max_salario')";
     pg_query($db, $query);
     //Mostrar notificaciones de mensajes
     //3
     $_SESSION['msg'] = "Imformacion Guardada";
 
-    header('location: JOBS.php'); //redireccionamos a la pagina principal
+    header('location: JOBS_SERVER.php'); //redireccionamos a la pagina principal
 
 }
 
@@ -67,10 +67,10 @@ if (isset($_POST['update'])){
 
 
 
-    pg_query($db, "UPDATE jobs SET trabajo_id='$trabajo_id', titulo_trabajo='$titulo_trabajo', min_salario='$min_salario', max_salario='$max_salario'  WHERE trabajo_id=$trabajo_id");
+    pg_query($db, "UPDATE jobs SET trabajo_id='$trabajo_id', titulo_trabajo='$titulo_trabajo', min_salario='$min_salario', max_salario='$max_salario'   WHERE trabajo_id=$trabajo_id");
     $_SESSION['msg'] = "Imformacion Actualizada";
 
-    header('location: JOBS.php'); //redireccionamos a la pagina principal
+    header('location: JOBS_SERVER.php'); //redireccionamos a la pagina principal
 }
 
 //<!-- BORRAR REGISTROS
@@ -80,7 +80,7 @@ if(isset($_GET['del'])){
     pg_query($db, "DELETE FROM jobs WHERE trabajo_id=$trabajo_id");
     $_SESSION['msg'] = "Imformacion Eliminada";
 
-    header('location: JOBS.php'); //redireccionamos a la pagina principal
+    header('location: JOBS_SERVER.php'); //redireccionamos a la pagina principal
 
 }
 
