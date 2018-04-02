@@ -118,37 +118,45 @@ if(isset($_GET['edit'])){
     <input type="hidden" name="trabajo_id"  value="<?php echo $trabajo_id;?>">
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="text" placeholder="Enter ..." autofocus maxlength="3" name="trabajo_id" value="<?php echo $trabajo_id;?>">
-        <div class="ui teal  label">
-            trabajo_id
+    <div class="field">
+        <div class="two fields">
+        <div class="ui right labeled input">
+            <input type="text" placeholder="Enter ..." autofocus maxlength="3" name="trabajo_id" value="<?php echo $trabajo_id;?>">
+            <div class="ui teal  label">
+                trabajo_id
+            </div>
+        </div>
+
+
+
+
+        <div class="ui right labeled input ">
+            <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="titulo_trabajo" value="<?php echo $titulo_trabajo;?>">
+            <div class="ui teal   label">
+                titulo_trabajo
+            </div>
+        </div>
         </div>
     </div>
 
 
-
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input ">
-        <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="titulo_trabajo" value="<?php echo $titulo_trabajo;?>">
-        <div class="ui teal   label">
-            titulo_trabajo
+    <div class="field">
+        <div class="two fields">
+        <div class="ui right labeled input ">
+            <input type="number" placeholder="Enter ..." autofocus maxlength="20" name="min_salario" value="<?php echo $min_salario;?>">
+            <div class="ui teal   label">
+                min_salario
+            </div>
         </div>
-    </div>
 
 
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input ">
-        <input type="number" placeholder="Enter ..." autofocus maxlength="20" name="min_salario" value="<?php echo $min_salario;?>">
-        <div class="ui teal   label">
-            min_salario
+        <div class="ui right labeled input ">
+            <input type="number" placeholder="Enter ..." name="max_salario" autofocus maxlength="50" value="<?php echo $max_salario;?>">
+            <div class="ui teal   label">
+                max_salario
+            </div>
         </div>
-    </div>
-
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input ">
-        <input type="number" placeholder="Enter ..." name="max_salario" autofocus maxlength="50" value="<?php echo $max_salario;?>">
-        <div class="ui teal   label">
-            max_salario
         </div>
     </div>
 

@@ -204,7 +204,7 @@
     <div class="field">
         <div class="two fields">
        <div class="ui right labeled input ">
-            <input type="datetime-local" placeholder="Enter ..." name="fecha_ingreso" value="<?php echo $fecha_ingreso;?>">
+            <input type="datetime-local" placeholder="DD/MM/AAAA" name="fecha_ingreso" value="<?php echo $fecha_ingreso;?>">
             <div class="ui teal   label">
                 Fecha Ingreso
             </div>

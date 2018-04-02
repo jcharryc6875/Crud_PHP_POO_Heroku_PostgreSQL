@@ -116,38 +116,46 @@ if(isset($_GET['edit'])){
     <input type="hidden" name="empleado_id"  value="<?php echo $departamento_id;?>">
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input">
-        <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="departamento_id" value="<?php echo $departamento_id;?>">
-        <div class="ui teal  label">
-            departamento_id
+    <div class="field">
+        <div class="two fields">
+        <div class="ui right labeled input">
+            <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="departamento_id" value="<?php echo $departamento_id;?>">
+            <div class="ui teal  label">
+                departamento_id
+            </div>
+        </div>
+
+
+
+
+        <div class="ui right labeled input ">
+            <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="nombre_departamento" value="<?php echo $nombre_departamento;?>">
+            <div class="ui teal   label">
+                nombre_departamento
+            </div>
+        </div>
         </div>
     </div>
 
 
-
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input ">
-        <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="nombre_departamento" value="<?php echo $nombre_departamento;?>">
-        <div class="ui teal   label">
-            nombre_departamento
+    <div class="field">
+            <div class="two fields">
+        <div class="ui right labeled input ">
+            <input type="number" placeholder="Enter ..." autofocus maxlength="20" name="jefe_id" value="<?php echo $jefe_id;?>">
+            <div class="ui teal   label">
+                jefe_id
+            </div>
         </div>
-    </div>
 
 
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input ">
-        <input type="number" placeholder="Enter ..." autofocus maxlength="20" name="jefe_id" value="<?php echo $jefe_id;?>">
-        <div class="ui teal   label">
-            jefe_id
+        <div class="ui right labeled input ">
+            <input type="number" placeholder="Enter ..." name="localizacion_id" autofocus maxlength="50" value="<?php echo $localizacion_id;?>">
+            <div class="ui teal   label">
+                localizacion_id
+            </div>
         </div>
-    </div>
-
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input ">
-        <input type="number" placeholder="Enter ..." name="localizacion_id" autofocus maxlength="50" value="<?php echo $localizacion_id;?>">
-        <div class="ui teal   label">
-            localizacion_id
-        </div>
+            </div>
     </div>
 
 
