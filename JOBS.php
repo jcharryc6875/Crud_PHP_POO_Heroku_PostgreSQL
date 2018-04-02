@@ -113,7 +113,7 @@ if(isset($_GET['edit'])){
 
 </table>
 <!--server.php conexion con la base de datos-->
-<form action="JOBS_SERVER.php"  method="POST">
+<form action="JOBS_SERVER.php"  method="POST" class="ui form">
     <!--//12) actualizar registros en el formulario-->
     <input type="hidden" name="trabajo_id"  value="<?php echo $trabajo_id;?>">
 
