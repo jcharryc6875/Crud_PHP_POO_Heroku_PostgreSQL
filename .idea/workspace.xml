@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="37" />
+              <caret line="67" column="18" lean-forward="false" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="37" />
               <folding>
                 <marker date="1522664175403" expanded="true" signature="234:276" ph="SELECT * FRO... info" />
                 <marker date="1522664175403" expanded="true" signature="234:286" ph="SELECT * FRO... info" />
@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/css/estilos.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -41,19 +41,19 @@
       <file leaf-file-name="JOBS.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JOBS.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2904">
-              <caret line="121" column="82" lean-forward="false" selection-start-line="121" selection-start-column="82" selection-end-line="121" selection-end-column="82" />
+            <state relative-caret-position="-2241">
+              <caret line="73" column="30" lean-forward="false" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
               <folding>
-                <marker date="1522665881031" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
+                <marker date="1522668616015" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-192">
+            <state relative-caret-position="543">
               <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
               <folding>
                 <marker date="1522561729782" expanded="true" signature="1816:1984" ph="INSERT INTO info... " />
@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JOBS_SERVER.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JOBS_SERVER.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JOBS_SERVER.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1848">
-              <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+            <state relative-caret-position="216">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <marker date="1522666814768" expanded="true" signature="967:1114" ph="INSERT INTO jobs... " />
                 <marker date="1522666814768" expanded="true" signature="1648:1798" ph="UPDATE jobs... " />
@@ -87,11 +87,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="24">
+                <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DEPARTMENTS.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DEPARTMENTS.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
-              <caret line="79" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="7" />
+              <caret line="79" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="7" />
               <folding>
                 <marker date="1522662179259" expanded="true" signature="244:292" ph="SELECT * FRO... employees" />
               </folding>
@@ -103,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/DEPARTMENTS_SERVER.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="639">
-              <caret line="88" column="4" lean-forward="true" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+              <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
               <folding>
                 <marker date="1522563484530" expanded="true" signature="1074:1246" ph="INSERT INTO employees... " />
                 <marker date="1522563484530" expanded="true" signature="1807:1989" ph="UPDATE departments... " />
@@ -156,8 +169,8 @@
         <option value="$PROJECT_DIR$/DEPARTMENTS.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/estilos.css" />
-        <option value="$PROJECT_DIR$/JOBS.php" />
         <option value="$PROJECT_DIR$/JOBS_SERVER.php" />
+        <option value="$PROJECT_DIR$/JOBS.php" />
       </list>
     </option>
   </component>
@@ -286,18 +299,18 @@
       <workItem from="1522387837754" duration="12205000" />
       <workItem from="1522441384020" duration="13168000" />
       <workItem from="1522555674124" duration="11245000" />
-      <workItem from="1522657352068" duration="9049000" />
+      <workItem from="1522657352068" duration="10407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92974000" />
+    <option name="totallyTimeSpent" value="94332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12079063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1830161" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -347,7 +360,7 @@
         <state relative-caret-position="1344">
           <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
           <folding>
-            <marker date="1522665881031" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
+            <marker date="1522668616015" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
           </folding>
         </state>
       </provider>
@@ -597,10 +610,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/estilos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DEPARTMENTS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="79" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="7" />
+          <folding>
+            <marker date="1522662179259" expanded="true" signature="244:292" ph="SELECT * FRO... employees" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DEPARTMENTS_SERVER.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+          <folding>
+            <marker date="1522563484530" expanded="true" signature="1074:1246" ph="INSERT INTO employees... " />
+            <marker date="1522563484530" expanded="true" signature="1807:1989" ph="UPDATE departments... " />
+            <marker date="1522563484530" expanded="true" signature="2257:2303" ph="DELETE FROM employees... " />
+            <marker date="1522563484530" expanded="true" signature="2528:2553" ph="SELECT * FRO... departments" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="37" />
+          <caret line="67" column="18" lean-forward="false" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="37" />
           <folding>
             <marker date="1522664175403" expanded="true" signature="234:276" ph="SELECT * FRO... info" />
             <marker date="1522664175403" expanded="true" signature="234:286" ph="SELECT * FRO... info" />
@@ -609,37 +653,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/estilos.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DEPARTMENTS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="79" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="188" selection-end-column="7" />
-          <folding>
-            <marker date="1522662179259" expanded="true" signature="244:292" ph="SELECT * FRO... employees" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JOBS.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2904">
-          <caret line="121" column="82" lean-forward="false" selection-start-line="121" selection-start-column="82" selection-end-line="121" selection-end-column="82" />
+        <state relative-caret-position="-2241">
+          <caret line="73" column="30" lean-forward="false" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
           <folding>
-            <marker date="1522665881031" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
+            <marker date="1522668616015" expanded="true" signature="232:268" ph="SELECT * FRO... jobs" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JOBS_SERVER.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1522666814768" expanded="true" signature="967:1114" ph="INSERT INTO jobs... " />
+            <marker date="1522666814768" expanded="true" signature="1648:1798" ph="UPDATE jobs... " />
+            <marker date="1522666814768" expanded="true" signature="2049:2083" ph="DELETE FROM jobs... " />
+            <marker date="1522666814768" expanded="true" signature="2296:2314" ph="SELECT * FRO... jobs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="24">
+            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
+        <state relative-caret-position="543">
           <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
           <folding>
             <marker date="1522561729782" expanded="true" signature="1816:1984" ph="INSERT INTO info... " />
@@ -653,32 +703,6 @@
             <marker date="1522561729782" expanded="true" signature="4065:4106" ph="DELETE FROM info... " />
             <marker date="1522561729782" expanded="true" signature="4344:4358" ph="SELECT * FRO... info" />
             <marker date="1522561729782" expanded="true" signature="4344:4367" ph="SELECT * FRO... employees" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DEPARTMENTS_SERVER.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="88" column="4" lean-forward="true" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-          <folding>
-            <marker date="1522563484530" expanded="true" signature="1074:1246" ph="INSERT INTO employees... " />
-            <marker date="1522563484530" expanded="true" signature="1807:1989" ph="UPDATE departments... " />
-            <marker date="1522563484530" expanded="true" signature="2257:2303" ph="DELETE FROM employees... " />
-            <marker date="1522563484530" expanded="true" signature="2528:2553" ph="SELECT * FRO... departments" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JOBS_SERVER.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-          <folding>
-            <marker date="1522666814768" expanded="true" signature="967:1114" ph="INSERT INTO jobs... " />
-            <marker date="1522666814768" expanded="true" signature="1648:1798" ph="UPDATE jobs... " />
-            <marker date="1522666814768" expanded="true" signature="2049:2083" ph="DELETE FROM jobs... " />
-            <marker date="1522666814768" expanded="true" signature="2296:2314" ph="SELECT * FRO... jobs" />
           </folding>
         </state>
       </provider>

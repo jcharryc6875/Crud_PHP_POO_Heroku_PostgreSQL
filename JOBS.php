@@ -71,7 +71,7 @@ if(isset($_GET['edit'])){
 
 
 
-<table class="ui inverted blue table celled">
+<table class="ui inverted blue celled">
     <thead>
     <tr>
         <!--fronted 8) desplegar datos en html-->
