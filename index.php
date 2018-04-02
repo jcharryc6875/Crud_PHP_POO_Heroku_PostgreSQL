@@ -139,31 +139,42 @@
    <input type="hidden" name="empleado_id"  value="<?php echo $empleado_id;?>">
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-  <div class="ui right labeled input field">
-        <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="empleado_id" value="<?php echo $empleado_id;?>">
+  <!--<div class="ui right labeled input field">
+        <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="empleado_id" value="<?php /*echo $empleado_id;*/?>">
         <div class="ui teal  label">
             empleado_id
         </div>
     </div>
+-->
 
 
 
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="ui right labeled input field ">
-        <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="primer_nombre" value="<?php echo $primer_nombre;?>">
-        <div class="ui teal   label">
-            Primer Nombre
-        </div>
-    </div>
 
 
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-   <div class="ui right labeled input field">
-        <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="segundo_nombre" value="<?php echo $segundo_nombre;?>">
-        <div class="ui teal   label">
-            Segundo Nombre
-        </div>
-    </div>
+
+   <div class="field">
+       <div class="two fields">
+           <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+           <div class="ui right labeled input  ">
+               <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="primer_nombre" value="<?php echo $primer_nombre;?>">
+               <div class="ui teal   label">
+                   Primer Nombre
+               </div>
+           </div>
+
+
+           <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+           <div class="ui right labeled input ">
+               <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="segundo_nombre" value="<?php echo $segundo_nombre;?>">
+               <div class="ui teal   label">
+                   Segundo Nombre
+               </div>
+           </div>
+
+       </div>
+
+
+   </div>
 
     <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <div class="ui right labeled input field">
