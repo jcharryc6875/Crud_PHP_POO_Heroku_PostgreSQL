@@ -46,7 +46,7 @@
     <script src="js/semantic.js"></script>
 
 </head>
-<body>
+<body background="imagenes/ecosystem-51bfd00540ebf0b1e52b4fd935222d5c46c7ad58fc05273ca96311788ac0777c.png">
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 <div class="ui teal  menu">
     <div class="header item">
