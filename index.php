@@ -64,9 +64,9 @@
 </div>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
-    <div class="ui small circular rotate left reveal image">
-        <img src="imagenes/heroku.png" class="visible content imgcenter">
-        <img src="imagenes/1200px-Postgresql_elephant.svg.png" class="hidden content imgcenter">
+    <div class="ui small circular rotate left reveal image imgcenter">
+        <img src="imagenes/heroku.png" class="visible content ">
+        <img src="imagenes/1200px-Postgresql_elephant.svg.png" class="hidden content">
     </div>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 

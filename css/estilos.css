@@ -112,10 +112,13 @@ form{
     border-radius: 3px;
 
 }
-.imgcenter{
+
+div.imgcenter{
 
     display: block;
     margin-left: auto;
     margin-right: auto;
     border:none;
+
+
 }

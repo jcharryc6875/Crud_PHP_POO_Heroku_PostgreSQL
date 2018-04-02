@@ -182,12 +182,7 @@ if(isset($_GET['edit'])){
 </form>
 
 
-<script src="js/semantic.js">
 
-    $('.ui.labeled.icon.sidebar')
-        .sidebar('toggle') ;
-
-</script>
 
 
 </body>
