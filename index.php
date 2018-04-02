@@ -78,7 +78,7 @@
 
 
 
-<table class="ui inverted grey table celled">
+<table class="ui inverted grey celled">
     <thead>
         <tr>
             <!--fronted 8) desplegar datos en html-->
