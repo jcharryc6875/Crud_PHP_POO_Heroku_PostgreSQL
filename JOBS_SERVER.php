@@ -52,7 +52,7 @@ if(isset($_POST['save'])){
     //3
     $_SESSION['msg'] = "Imformacion Guardada";
 
-    header('location: JOBS_SERVER.php'); //redireccionamos a la pagina principal
+    header('location: JOBS.php'); //redireccionamos a la pagina principal
 
 }
 
@@ -70,7 +70,7 @@ if (isset($_POST['update'])){
     pg_query($db, "UPDATE jobs SET trabajo_id='$trabajo_id', titulo_trabajo='$titulo_trabajo', min_salario='$min_salario', max_salario='$max_salario'   WHERE trabajo_id=$trabajo_id");
     $_SESSION['msg'] = "Imformacion Actualizada";
 
-    header('location: JOBS_SERVER.php'); //redireccionamos a la pagina principal
+    header('location: JOBS.php'); //redireccionamos a la pagina principal
 }
 
 //<!-- BORRAR REGISTROS
@@ -80,7 +80,7 @@ if(isset($_GET['del'])){
     pg_query($db, "DELETE FROM jobs WHERE trabajo_id=$trabajo_id");
     $_SESSION['msg'] = "Imformacion Eliminada";
 
-    header('location: JOBS_SERVER.php'); //redireccionamos a la pagina principal
+    header('location: JOBS.php'); //redireccionamos a la pagina principal
 
 }
 
