@@ -169,11 +169,11 @@ if(isset($_GET['edit'])){
         <?php   if ($edit_state == false): ?>
 
             <button type="submit" name="save" class="btn" onclick="alert('Tu imformacion se esta actualizando')" >Guardar</button>
-            <button type="button" onclick="alert('Tu imformacion se esta actualizando')"  class="ui loading button"></button>
+            <button type="button" onclick="alert('Tu imformacion se esta actualizando')"  class="ui secondary  loading button positive"></button>
         <?php else: ?>
 
             <button type="submit" name="update" class="btn" onclick="alert('Tu imformacion se esta actualizando')" >Actualizar</button>
-            <button type="button" onclick="alert('Tu imformacion se esta actualizando')"  class="ui primary loading button"></button>
+            <button type="button" onclick="alert('Tu imformacion se esta actualizando')"  class="ui secondary  loading button positive"></button>
         <?php endif; ?>
 
     </div>
