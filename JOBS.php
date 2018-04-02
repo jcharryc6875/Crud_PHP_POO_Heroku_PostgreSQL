@@ -49,7 +49,7 @@ if(isset($_GET['edit'])){
     </a>
     <a class="item" href="DEPARTMENTS.php">
         DEPARTMENTS
-        <i ></i>
+
     </a>
     <a class="item" href="JOBS.php">
         JOBS
@@ -119,14 +119,11 @@ if(isset($_GET['edit'])){
     <div class="field">
         <div class="two fields">
             <div class="ui right labeled input">
-                <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="trabajo_id" value="<?php echo $trabajo_id;?>">
+                <input type="text" placeholder="Enter ..." autofocus maxlength="3" name="trabajo_id" value="<?php echo $trabajo_id;?>">
                 <div class="ui teal  label">
                     trabajo_id
                 </div>
             </div>
-
-
-
 
             <div class="ui right labeled input ">
                 <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="titulo_trabajo" value="<?php echo $titulo_trabajo;?>">

@@ -46,8 +46,7 @@ if(isset($_POST['save'])){
 
     //3) hacemos la query de insertar datos
 
-    $query = "INSERT INTO jobs(trabajo_id,titulo_trabajo,min_salario,max_salario) VALUES('$trabajo_id', '$titulo_trabajo',
-        '$min_salario','$max_salario')";
+    $query = "INSERT INTO jobs(trabajo_id,titulo_trabajo,min_salario,max_salario) VALUES('$trabajo_id', '$titulo_trabajo','$min_salario','$max_salario')";
     pg_query($db, $query);
     //Mostrar notificaciones de mensajes
     //3
@@ -68,7 +67,7 @@ if (isset($_POST['update'])){
 
 
 
-    pg_query($db, "UPDATE jobs SET trabajo_id='$trabajo_id', titulo_trabajo='$titulo_trabajo', min_salario='$min_salario', max_salario='$max_salario'   WHERE trabajo_id=$trabajo_id");
+    pg_query($db, "UPDATE jobs SET trabajo_id='$trabajo_id', titulo_trabajo='$titulo_trabajo', min_salario='$min_salario', max_salario='$max_salario'  WHERE trabajo_id=$trabajo_id");
     $_SESSION['msg'] = "Imformacion Actualizada";
 
     header('location: JOBS.php'); //redireccionamos a la pagina principal
