@@ -27,6 +27,12 @@
 
 ?>
 
+<div>
+<head>
+    <title> Editado por Sebastian </title>
+</head>
+
+</div>
 
 <!DOCTYPE HTML>
 
