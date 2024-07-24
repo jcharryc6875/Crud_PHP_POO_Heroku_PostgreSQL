@@ -30,7 +30,11 @@
 <div>
 <head>
     <title> Editado por Sebastian </title>
+<<<<<<< HEAD
     <title> prueba sebastain</title>
+=======
+    <p>Editado jcharryc</p>
+>>>>>>> a5e5b6b3483cfd885b8467323109a46a0c63cf08
 </head>
 
 </div>
